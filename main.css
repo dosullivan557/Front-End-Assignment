@@ -30,24 +30,34 @@ label:last-child{
   color: white;
   background-color: gray;
 }
+#tab1:checked ~ #HomeContent,
+#tab4:checked ~ #PaintingContent,
+#tab5:checked ~ #PrintsContent,
+#tab4:checked ~ #AboutContent
+ {
+  display: block;
+  background-color: blue;
+}
+
+
 /*Dropdown*/
-.dropDownItem {
+.dropDownContent {
   display: none;
 }
 .dropDownItem:last-child{
   float:left;
 }
-.dropDownContainer:hover .dropDownItem{
+.dropDownContainer:hover .dropDownContent{
   display: block;
+}
+.dropDownContainer:hover{
+  background-color: purple;
 }
 
 .dropDownContainer {
-    max-width:120px;
+    max-width:282px;
     height: 150px;
     display: inline-block;
-}
-#tab1:checked ~ #HomeContent,
-#tab2:checked ~ #ArtworkContent,
-#tab3:checked ~ #AboutContent {
-  display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
