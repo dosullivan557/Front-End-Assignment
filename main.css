@@ -30,14 +30,6 @@ label:last-child{
   color: white;
   background-color: gray;
 }
-#tab1:checked ~ #HomeContent,
-#tab4:checked ~ #PaintingContent,
-#tab5:checked ~ #PrintsContent,
-#tab4:checked ~ #AboutContent
- {
-  display: block;
-  background-color: blue;
-}
 
 
 /*Dropdown*/
@@ -60,4 +52,33 @@ label:last-child{
     display: inline-block;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+
+/*Footer styles*/
+.footContainer{
+}
+.socialSection{
+  float: right;
+  display: block
+}
+.contactSection {
+  /*width: 100%;*/
+  display: block;
+  float: left;
+  position: relative;
+
+}
+.socialImg {
+  height: 50px;
+  width: 50px;
+}
+
+.socialImg:hover {
+  filter: invert(15%);
+}
+
+ a{
+  padding: 5px;
+  text-decoration: none;
 }
