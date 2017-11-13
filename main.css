@@ -1,0 +1,53 @@
+body {
+
+}
+input{
+  display: none;
+}
+header{
+  margin-left: 100px;
+}
+label{
+  float: left;
+  background-color: #efefef;
+  padding: 10px 70px 10px 70px;
+  width: 130px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin:5px;
+  text-align: center;
+}
+main > input,
+section {
+  display: none;
+  padding: 1em;
+  clear: both;
+}
+label:last-child{
+  float:right;
+}
+[id^="tab"]:checked + label {
+  color: white;
+  background-color: gray;
+}
+/*Dropdown*/
+.dropDownItem {
+  display: none;
+}
+.dropDownItem:last-child{
+  float:left;
+}
+.dropDownContainer:hover .dropDownItem{
+  display: block;
+}
+
+.dropDownContainer {
+    max-width:120px;
+    height: 150px;
+    display: inline-block;
+}
+#tab1:checked ~ #HomeContent,
+#tab2:checked ~ #ArtworkContent,
+#tab3:checked ~ #AboutContent {
+  display: block;
+}
