@@ -6,22 +6,22 @@
   </head>
 
 
-  <body>
-    <header>
-      <input id="tab1" type="radio" class="navItems" name="navBar" checked>
+  <body onload="setLoadPage()">
+    <header class="navbar" onclick="changePage()">
+      <input id="tab1" type="radio" class="navItems" name="navBar" value="Home">
       <label for="tab1">Home</label>
 
       <div class="dropDownContainer">
         <input type="button" class="navItems" id="tab2" name="navBar">
         <label for="tab2">Artwork</label>
         <div class="dropDownContent">
-         <input type="radio" id="tab4" name="navBar">
+         <input type="radio" id="tab4" value="Paintings" class="navItems" name="navBar">
          <label class="dropDownItem" for="tab4">Paintings</label>
-         <input type="radio" id="tab5" name="navBar">
+         <input type="radio" id="tab5" value="Prints" class="navItems" name="navBar">
          <label class="dropDownItem" for="tab5">Prints</label>
         </div>
       </div>
-      <input type="radio" class="navItems" id="tab3" name="navBar">
+      <input type="radio" value="About" class="navItems" id="tab3" name="navBar">
       <label for="tab3">About</label>
     </header>
 
@@ -37,6 +37,6 @@
         <section id="AboutContent" class="Sections">
           About
         </section>
+        <script src="savePage.js"></script>
   </body>
-
 </html>
