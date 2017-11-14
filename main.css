@@ -54,6 +54,57 @@ label:last-child{
     border-bottom-right-radius: 10px;
 }
 
+/*Slideshow*/
+
+.slides {
+	margin-top: 10px;
+	display: none;
+	height: 450px;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+.slideshowButton {
+	display: inline-block;
+	padding: 15px;
+	position: relative;
+	left: 550px;
+	top: 20px;
+	border-radius: 5px;
+	background-color: purple;
+	border-color: #efefef;
+	color: white;
+	outline: none;
+}
+
+.slideshowButton:hover {
+	background-color: blue;
+	-moz-transition: background-color 200ms ease-in;
+	-webkit-transition: background-color 200ms ease-in;
+	-ms-transition: background-color 200ms ease-in;
+	-o-transition: background-color 200ms ease-in;
+	transition: background-color : 200ms ease-in;
+}
+/*Slideshow fade*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.1}
+  to {opacity: 1}
+}
 
 /*Footer styles*/
 .footContainer{

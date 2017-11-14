@@ -1,3 +1,8 @@
+// /**
+// * @author Danny
+// */
+// //
+
 var navElems = document.getElementsByClassName("navItems");
 var nameStored=localStorage.name;
 var sections = document.getElementsByClassName("Sections");

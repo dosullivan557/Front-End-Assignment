@@ -6,7 +6,7 @@
   </head>
 
 
-  <body onload="setLoadPage()">
+  <body onload="setLoadPage();showSlides();">
     <header class="navbar" onclick="changePage()">
       <input id="tab1" type="radio" class="navItems" name="navBar" value="Home">
       <label for="tab1">Home</label>
@@ -27,6 +27,21 @@
 
         <section id="HomeContent" class="Sections">
           <h2>Home</h2>
+          <div class="slideshowContainer">
+    				<img src="Images/Slideshow/1.jpg" alt="slide1" class="slides fade" id="img1">
+    				<img src="Images/Slideshow/2.png" alt="slide2" class="slides fade" id="img2">
+    				<img src="Images/Slideshow/3.png" alt="slide3" class="slides fade" id="img3">
+    				<button onclick="previous()" class="slideshowButton">
+    					Prev
+    				</button>
+    				<button onclick="pause()" id="pauseButton" class="slideshowButton">
+    					Pause
+    				</button>
+    				<button onclick="next()" class="slideshowButton">
+    					Next
+    				</button>
+    			</div>
+    		</div>
         </section>
         <section id="PaintingContent" class="Sections">
           <h2>Painting</h2>
