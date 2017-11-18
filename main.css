@@ -188,7 +188,9 @@ label:last-child{
     height: auto;
 
   }
-
+  body{
+    background-color: blue;
+  }
   .btnContainer {
     width: 800px;
     top: 10px;
