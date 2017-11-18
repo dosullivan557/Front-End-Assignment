@@ -8,7 +8,7 @@ var i;
 var slides = document.getElementsByClassName("slides");
 var timeout;
 var paused = false;
-
+window.onload = showSlides();
 //shows the correct slides
 function showSlides() {
 	//Makes all the images invisible
@@ -59,7 +59,7 @@ function previous() {
 		document.getElementById("pauseButton").innerText = "Pause";
 		paused = !paused;
 	}
-	//clears the timeout 
+	//clears the timeout
 	clearTimeout(timeout);
 	for ( i = 0; i < slides.length; i++) {
 		slides[i].style.display = "none";

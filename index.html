@@ -6,9 +6,9 @@
   </head>
 
 
-  <body onload="setLoadPage();showSlides();">
+  <body>
     <!-- Navigation bar section -->
-    <nav class="navbar" onclick="changePage()">
+    <nav id="navbar">
       <input id="tab1" type="radio" class="navItems" name="navBar" value="Home">
       <label for="tab1">Home</label>
 
@@ -26,6 +26,7 @@
       <label for="tab3">About</label>
     </nav>
     <button id="clearbutton">clear and refresh</button>
+    <button id="refreshButton">refresh</button>
     <!--Home section -->
         <section id="HomeContent" class="Sections">
           <h2>Home</h2>

@@ -2,19 +2,27 @@
 // * @author Danny
 // */
 // //
-
+var navBar = document.getElementById("navbar");
 var navElems = document.getElementsByClassName("navItems");
 var nameStored=localStorage.name;
 var sections = document.getElementsByClassName("Sections");
+
+//dev vars
 var clearButton = document.getElementById("clearbutton");
+var refreshButton = document.getElementById("refreshButton");
 
 if(localStorage.page===undefined){
   navElems[0].checked=true;
   changePage();
 }
-
+window.onload = setLoadPage();
 //Add Listeners
+navBar.addEventListener("click", changePage);
+
+//dev Listeners
 clearButton.addEventListener("click", clearSave);
+refreshButton.addEventListener("click", refresh);
+
 function changePage(){
   for (var i = 0; i < navElems.length; i++) {
     if(navElems[i].checked){
@@ -29,8 +37,10 @@ function changePage(){
 
 function clearSave(){
   window.localStorage.clear();
+  refresh();
+}
+function refresh(){
   location.reload();
-
 }
 
 function setLoadPage(){
