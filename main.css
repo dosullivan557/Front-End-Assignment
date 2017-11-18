@@ -31,6 +31,11 @@ label:last-child{
   background-color: gray;
 }
 
+/*Pages fade*/
+.fadePages{
+  animation-name: fade;
+  animation-duration: 1s;
+}
 
 /*Dropdown*/
 .dropDownContent {
@@ -57,7 +62,6 @@ label:last-child{
 /*Slideshow*/
 
 .slides {
-  display: absolute;
 	margin-top: 10px;
 	display: none;
 	height: 450px;
@@ -69,7 +73,6 @@ label:last-child{
 }
 
 .btnContainer {
-  position: absolute;
   width: 600px;
   margin-left: auto;
   margin-right: auto;
