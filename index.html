@@ -12,7 +12,7 @@
       <input id="tab1" type="radio" class="navItems" name="navBar" value="Home">
       <label for="tab1">Home</label>
 
-      <div class="dropDownContainer" onclick="changePage">
+      <div class="dropDownContainer">
         <input type="button" id="tab2" value="ddButton" name="navBar">
         <label for="tab2">Artwork</label>
         <div class="dropDownContent">
@@ -34,13 +34,13 @@
     				<img src="Images/Slideshow/1.jpg" alt="slide1" class="slides fade" id="img1">
     				<img src="Images/Slideshow/2.png" alt="slide2" class="slides fade" id="img2">
     				<img src="Images/Slideshow/3.png" alt="slide3" class="slides fade" id="img3">
-    				<button onclick="previous()" class="slideshowButton">
+    				<button id="prevButton" class="slideshowButton">
     					Prev
     				</button>
-    				<button onclick="pause()" id="pauseButton" class="slideshowButton">
+    				<button id="pauseButton" class="slideshowButton">
     					Pause
     				</button>
-    				<button onclick="next()" class="slideshowButton">
+    				<button id="nextButton" class="slideshowButton">
     					Next
     				</button>
     			</div>

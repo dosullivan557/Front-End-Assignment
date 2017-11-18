@@ -8,6 +8,17 @@ var i;
 var slides = document.getElementsByClassName("slides");
 var timeout;
 var paused = false;
+
+//Button elements for slideshow
+var pauseButton = document.getElementById("pauseButton");
+var nextButton = document.getElementById("nextButton");
+var prevButton = document.getElementById("prevButton");
+
+//Add Listeners
+pauseButton.addEventListener("click", pause);
+nextButton.addEventListener("click", next);
+prevButton.addEventListener("click", previous);
+
 window.onload = showSlides();
 //shows the correct slides
 function showSlides() {
