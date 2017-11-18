@@ -104,6 +104,8 @@ label:last-child{
 .slideshowButton{
   background-color: transparent;
   border: none;
+  cursor: pointer;
+
 }
 .slideshowButton:active {
 	background-color: #efefef;
@@ -126,18 +128,25 @@ label:last-child{
 
 /*Footer styles*/
 .footContainer{
-  position: absolute;
+  width: 100%;
+  height: 160px;
+  position: relative;
+  top: 150px;
+
 }
 .socialSection{
   float: right;
-  display: block
+  position: relative;
+  display: block;
+  bottom: 165px;
+  height: auto;
+
 }
 .contactSection {
   /*width: 100%;*/
   display: block;
   float: left;
-  position: relative;
-
+  height: auto;
 }
 .socialImg {
   height: 50px;
@@ -153,6 +162,7 @@ label:last-child{
   text-decoration: none;
 }
 
+/*Media Statements*/
 @media screen and (min-width: 1000px) {
   .slides{
     height: 600px;
