@@ -32,10 +32,11 @@ section {
 }
 
 .Sections{
-
-  border-top: 1px solid #efefef;
+  border: 1px solid #efefef;
   background-color: #fffaf0;
   border-radius: 40px;
+  position: relative;
+
 }
 
 label:last-child{
@@ -63,12 +64,13 @@ label:last-child{
   display: block;
 }
 .dropDownContainer:hover{
-  background-color: #a27eb7;
+  background-color: #fffaf0;
 }
 .devFeatures {
   display: none;
 }
 .dropDownContainer {
+  position: relative;
     max-width:282px;
     height: 150px;
     display: inline-block;
@@ -149,11 +151,9 @@ figure:hover figcaption {
 
 }
 .slideshowButton{
-  background-color: #544c6a;
-  border: none;
-  cursor: pointer;
+  background-color: transparent;
   color: white;
-
+  border: none;
 }
 .slideshowButton:active {
 	background-color: #efefef;
@@ -234,6 +234,9 @@ figure:hover figcaption {
     position: relative;
     border: 1px solid black;
     height: auto;
+    background-color: #544c6a;
+    cursor: pointer;
+    color: white;
 
   }
 
@@ -241,9 +244,8 @@ figure:hover figcaption {
     display: block;
   }
   .dropDownContainer:hover{
-    background-color: #a27eb7;
     border: 1px solid black;
-;
+
   }
 p {
     text-align: center;
