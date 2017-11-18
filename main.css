@@ -1,5 +1,4 @@
 body {
-
 }
 input{
   display: none;
@@ -7,15 +6,23 @@ input{
 header{
   margin-left: 100px;
 }
+
+nav {
+width: 100%;
+//Make Bigger
+}
+
+
 label{
   float: left;
-  background-color: #efefef;
+  background-color: #544c6a;
   padding: 10px 70px 10px 70px;
   width: 130px;
   border-radius: 10px;
   border: 1px solid black;
   margin:5px;
   text-align: center;
+  color: white;
 }
 main > input,
 section {
@@ -23,6 +30,14 @@ section {
   padding: 1em;
   clear: both;
 }
+
+.Sections{
+
+  border-top: 1px solid #efefef;
+  background-color: #fffaf0;
+  border-radius: 40px;
+}
+
 label:last-child{
   float:right;
 }
@@ -48,9 +63,11 @@ label:last-child{
   display: block;
 }
 .dropDownContainer:hover{
-  background-color: purple;
+  background-color: #a27eb7;
 }
-
+.devFeatures {
+  display: none;
+}
 .dropDownContainer {
     max-width:282px;
     height: 150px;
@@ -58,6 +75,39 @@ label:last-child{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+/*Artwork*/
+figure {
+  width: 200px;
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: -4em;
+  display: block;
+}
+
+
+figcaption {
+  box-sizing: border-box;
+  height: 4em;
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  opacity: 0;
+  transition: all .5s;
+}
+
+
+figure:hover figcaption {
+  transform: translateY(0em);
+  opacity: .78;
+  background-color: white;
+}
+
+
 
 /*Slideshow*/
 
@@ -81,14 +131,12 @@ label:last-child{
   bottom: 450px;
 }
 #nextButton {
-  color: purple;
   float: right;
   width: 100px;
   height: 450px;
 }
 
 #pauseButton {
-  color: red;
   width: 395px;
   height: 450px;
 }
@@ -96,15 +144,15 @@ label:last-child{
   display:none;
 }
 #prevButton {
-  color: green;
   width: 100px;
   height: 450px;
 
 }
 .slideshowButton{
-  background-color: transparent;
+  background-color: #544c6a;
   border: none;
   cursor: pointer;
+  color: white;
 
 }
 .slideshowButton:active {
@@ -188,9 +236,21 @@ label:last-child{
     height: auto;
 
   }
-  h2{
-    color: blue;
+
+  .dropDownContainer:hover .dropDownContent{
+    display: block;
   }
+  .dropDownContainer:hover{
+    background-color: #a27eb7;
+    border: 1px solid black;
+;
+  }
+p {
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    color: #404040;
+}
   .btnContainer {
     width: 800px;
     top: 10px;

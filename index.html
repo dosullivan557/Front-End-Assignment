@@ -26,11 +26,11 @@
       <input type="radio" value="About" class="navItems" id="tab3" name="navBar">
       <label for="tab3">About</label>
     </nav>
-    <button id="clearbutton">clear and refresh</button>
-    <button id="refreshButton">refresh</button>
+    <button id="clearbutton" class="devFeatures">clear and refresh</button>
+    <button id="refreshButton" class="devFeatures">refresh</button>
     <!--Home section -->
         <section id="HomeContent" class="Sections fadePages">
-          <h2>Home</h2>
+          <p class="pageHeader">Home</p>
           <div class="slideshowContainer">
     				<img src="Images/Slideshow/1.jpg" alt="slide1" class="slides fade" id="img1">
     				<img src="Images/Slideshow/2.png" alt="slide2" class="slides fade" id="img2">
@@ -50,34 +50,41 @@
         </div>
         </section>
         <section id="PaintingContent" class="Sections fadePages">
-          <h2>Painting</h2>
+          <p class="pageHeader">Painting</p>
+          <figure>
+            <img src="https://lorempixel.com/200/300/" alt"placeholder"/>
+            <figcaption>
+              example
+            </figcaption>
+          </figure>
+
         </section>
         <section id="PrintsContent" class="Sections fadePages">
-          <h2>Prints</h2>
+          <p class="pageHeader">Prints</p>
         </section>
         <section id="AboutContent" class="Sections fadePages">
-          <h2>About</h2>
+          <p class="pageHeader">About</p>
         </section>
         <!-- Script tags-->
         <script src="Javascript/savePage.js"></script>
         <script src="Javascript/slideshow.js"></script>
   </body>
-  <footer class="footContainer">
+  <article class="footContainer">
     <section class="contactSection">
-      <h6>Contact</h6>
-      <p>Keerthika Sakthibalan</p>
-      <p>
+      <h4>Contact</h4>
+      <h5>Keerthika Sakthibalan</h5>
+      <h5>
         <a id="mailLink" href="mailto:abc123@gmail.com">
            abc123@gmail.com
-         </a>
+         </h5>
        </p>
-    </section>
-    <section class="socialSection">
+    </article>
+    <article class="socialSection">
       <h6>Social Links</h6>
       <a href="https://www.instagram.com/cloudyy.gif/">
         <img class="socialImg" alt="Instagram logo" src="Images/instagram.png"/>
       </a>
       <img class="socialImg" alt="youtube logo" src="Images/youtube.png"/>
-    </section>
+    </article>
   </footer>
 </html>
