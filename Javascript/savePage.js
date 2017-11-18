@@ -6,7 +6,6 @@ var navBar = document.getElementById("navbar");
 var navElems = document.getElementsByClassName("navItems");
 var pageStored=localStorage.page;
 var sections = document.getElementsByClassName("Sections");
-
 //dev vars
 var clearButton = document.getElementById("clearbutton");
 var refreshButton = document.getElementById("refreshButton");

@@ -85,7 +85,6 @@ label:last-child{
   float: right;
   width: 100px;
   height: 450px;
-
 }
 
 #pauseButton {
@@ -106,7 +105,7 @@ label:last-child{
   background-color: transparent;
   border: none;
 }
-.slideshowButton:hover {
+.slideshowButton:active {
 	background-color: #efefef;
   opacity: 0.1;
 	transition: background-color : 200ms ease-in;
