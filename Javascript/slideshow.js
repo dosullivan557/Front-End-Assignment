@@ -14,6 +14,10 @@ var pauseButton = document.getElementById("pauseButton");
 var nextButton = document.getElementById("nextButton");
 var prevButton = document.getElementById("prevButton");
 
+//googleSymbols
+var googleSymbols = document.getElementsByClassName("googleSymbols");
+googleSymbols[0].style.display = "block;"
+googleSymbols[1].style.display = "none";
 //Add Listeners
 pauseButton.addEventListener("click", pause);
 nextButton.addEventListener("click", next);
@@ -42,8 +46,7 @@ function next() {
 	clearTimeout(timeout);
 	//changes the name of the pause button
 	if (paused) {
-		document.getElementById("pauseButton").innerText = "Pause";
-		paused = !paused;
+		pause();
 
 	}
 	//starts the slideshow again
@@ -55,10 +58,12 @@ function pause() {
 		clearTimeout(timeout);
 		//changes the text value in button
 	if (!paused) {
-		document.getElementById("pauseButton").innerText = "Play";
+		googleSymbols[0].style.display="none";
+		googleSymbols[1].style.display="block";
 		paused = true;
 	} else {
-		document.getElementById("pauseButton").innerText = "Pause";
+		googleSymbols[0].style.display="block";
+		googleSymbols[1].style.display="none";
 		paused = false;
 		timeout = setTimeout(showSlides, 3000);
 	}
@@ -67,8 +72,7 @@ function pause() {
 function previous() {
 	//change button text
 	if (paused) {
-		document.getElementById("pauseButton").innerText = "Pause";
-		paused = !paused;
+		pause();
 	}
 	//clears the timeout
 	clearTimeout(timeout);

@@ -93,7 +93,9 @@ label:last-child{
   width: 395px;
   height: 450px;
 }
-
+.googleSymbols {
+  display:none;
+}
 #prevButton {
   color: green;
   width: 100px;
@@ -106,7 +108,7 @@ label:last-child{
 }
 .slideshowButton:hover {
 	background-color: #efefef;
-  opacity: 0.3;
+  opacity: 0.1;
 	transition: background-color : 200ms ease-in;
 }
 /*Slideshow fade*/
@@ -125,6 +127,7 @@ label:last-child{
 
 /*Footer styles*/
 .footContainer{
+  position: absolute;
 }
 .socialSection{
   float: right;
@@ -151,21 +154,35 @@ label:last-child{
   text-decoration: none;
 }
 
-@media screen and (min-width: 1060px) {
+@media screen and (min-width: 1000px) {
   .slides{
     height: 600px;
     width: 800px;
   }
-  #prevButton, #nextButton {
-    height: 600px;
-    width: 200px;
+  #prevButton {
+    height: 30px;
+
+  }
+  #nextButton{
+    height: 30px;
+    float: right;
+
   }
   #pauseButton {
-    height: 600px;
-    width: 395px;
+    height: 30px;
+    width: 180px;
+    margin-left: 200px;
   }
+  .slideshowButton {
+    position: relative;
+    border: 1px solid black;
+    height: auto;
+
+  }
+
   .btnContainer {
     width: 800px;
+    top: 10px;
     bottom: 600px;
   }
 }
