@@ -57,31 +57,53 @@ label:last-child{
 /*Slideshow*/
 
 .slides {
+  display: absolute;
 	margin-top: 10px;
 	display: none;
 	height: 450px;
-	width: 70%;
+	width: 600px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 5px;
 }
 
-.slideshowButton {
-	display: inline-block;
-	padding: 15px;
-	position: relative;
-	left: 550px;
-	top: 20px;
-	border-radius: 5px;
-	background-color: purple;
-	border-color: #efefef;
-	color: white;
-	outline: none;
+.btnContainer {
+  position: absolute;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  position: relative;
+  bottom: 450px;
+}
+#nextButton {
+  color: purple;
+  float: right;
+  width: 100px;
+  height: 450px;
+
 }
 
+#pauseButton {
+  color: red;
+  width: 395px;
+  height: 450px;
+}
+
+#prevButton {
+  color: green;
+  width: 100px;
+  height: 450px;
+
+}
+.slideshowButton{
+  background-color: transparent;
+  border: none;
+}
 .slideshowButton:hover {
-	background-color: blue;
+	background-color: #efefef;
+  opacity: 0.3;
 	transition: background-color : 200ms ease-in;
 }
 /*Slideshow fade*/
