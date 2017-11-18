@@ -82,16 +82,11 @@ label:last-child{
 
 .slideshowButton:hover {
 	background-color: blue;
-	-moz-transition: background-color 200ms ease-in;
-	-webkit-transition: background-color 200ms ease-in;
-	-ms-transition: background-color 200ms ease-in;
-	-o-transition: background-color 200ms ease-in;
 	transition: background-color : 200ms ease-in;
 }
 /*Slideshow fade*/
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+
   animation-name: fade;
   animation-duration: 1.5s;
 }
