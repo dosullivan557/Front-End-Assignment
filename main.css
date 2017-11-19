@@ -72,10 +72,7 @@ label:last-child{
 .devFeatures {
   display: none;
 }
-.fb-like {
-  background-color: green;
-  float: right;
-}
+
 .dropDownContainer {
   position: relative;
     max-width:282px;
@@ -213,7 +210,7 @@ figure{
   height: 200px;
   display: inline-block;
   position: relative;
-  top: 60px;
+  top: 100px;
 }
 .socialSection{
   float: right;
@@ -231,7 +228,7 @@ figure{
   height: 50px;
   width: 50px;
   position: relative;
-  left: 50px;
+
 }
 .socialImg:hover {
   filter: invert(15%);
@@ -246,8 +243,9 @@ figure{
   overflow:hidden;
   float: right;
   position:relative;
-  left:80px;
+  left:20px;
 }
+
 /*Media Statements*/
 @media screen and (min-width: 1000px) {
   .slides{
