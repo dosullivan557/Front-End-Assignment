@@ -65,9 +65,16 @@ label:last-child{
 }
 .dropDownContainer:hover{
   background-color: #fffaf0;
+  border: 1px solid #efefef;
+  border-top: none;
+
 }
 .devFeatures {
   display: none;
+}
+.fb-like {
+  background-color: green;
+  float: right;
 }
 .dropDownContainer {
   position: relative;
@@ -203,8 +210,10 @@ figure{
 /*Footer styles*/
 .footContainer{
   width: 98%;
-  height: 160px;
+  height: 200px;
   display: inline-block;
+  position: relative;
+  top: 60px;
 }
 .socialSection{
   float: right;
@@ -221,6 +230,8 @@ figure{
 .socialImg {
   height: 50px;
   width: 50px;
+  position: relative;
+  left: 50px;
 }
 .socialImg:hover {
   filter: invert(15%);
@@ -230,7 +241,13 @@ figure{
   padding: 5px;
   text-decoration: none;
 }
-
+.fb-like {
+  border:none;
+  overflow:hidden;
+  float: right;
+  position:relative;
+  left:80px;
+}
 /*Media Statements*/
 @media screen and (min-width: 1000px) {
   .slides{
