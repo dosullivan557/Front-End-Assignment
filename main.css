@@ -197,15 +197,12 @@ figure{
   display: flex;
   width: 100%;
 }
-i{
-  float: right;
-  position: relative;
-  top: 300px;
-  color: #544c6a;
+.material-icons{
+  color: white;;
 }
 /*Footer styles*/
 .footContainer{
-  width: 100%;
+  width: 98%;
   height: 160px;
   display: inline-block;
 }
@@ -264,13 +261,7 @@ i{
 
   }
 
-  .dropDownContainer:hover .dropDownContent{
-    display: block;
-  }
-  .dropDownContainer:hover{
-    border: 1px solid black;
 
-  }
 p {
     text-align: center;
     font-family: Georgia, Times, "Times New Roman", serif;
