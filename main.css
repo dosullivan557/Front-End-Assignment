@@ -179,8 +179,7 @@ figure:hover figcaption {
 .paintings {
   width: 200px;
   height: 300px;
-  display: flex;
-  Justify-content:center;
+
   margin-right: 100px;
 }
 figure{
@@ -191,7 +190,8 @@ figure{
   margin-right: 0px;
 }
 .container {
-  background-color: blue;
+  display: flex;
+  Justify-content:center;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -203,7 +203,7 @@ figure{
   width: 100%;
   height: 160px;
   position: relative;
-
+  display: block;
 }
 .socialSection{
   float: right;
@@ -214,8 +214,7 @@ figure{
 
 }
 .contactSection {
-  /*width: 100%;*/
-  display: block;
+
   float: left;
   height: auto;
 }
