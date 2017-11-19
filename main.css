@@ -273,8 +273,18 @@ figure:hover figcaption {
   float: right;
   position:relative;
   left:20px;
+  display: none;
 }
 
+
+/*About section*/
+.portrait {
+  float: right;
+  margin: 10px;
+  height: 350px;
+  width:auto;
+  border: 1px solid #000000;
+}
 /*Media Statements*/
 @media screen and (min-width: 1000px) {
   .slides{
@@ -306,7 +316,7 @@ figure:hover figcaption {
   }
 
 
-p {
+.pageHeader {
     text-align: center;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
