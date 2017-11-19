@@ -35,7 +35,6 @@ label:last-child{
   float:right;
 }
 label{
-
   float: left;
   background-color: #544c6a;
   padding: 10px 70px 10px 70px;
@@ -51,6 +50,7 @@ section {
   display: none;
   padding: 1em;
   clear: both;
+
 }
 
 .Sections{
@@ -58,6 +58,7 @@ section {
   background-color: #fffaf0;
   border-radius: 40px;
   position: relative;
+  padding-bottom: 100px;
 
 }
 
@@ -293,6 +294,7 @@ a{
   float: right;
   position:relative;
   left:20px;
+  display: none;
 }
 
 
