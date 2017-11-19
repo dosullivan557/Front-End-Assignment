@@ -5,26 +5,44 @@ input{
   display: none;
 }
 header{
-  margin-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h1 {
+  margin-left: 42%;
+  font-family: 'Great Vibes', cursive;
+  color: #544c6a;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 
-nav {
-width: 100%;
-//Make Bigger
+#navbar {
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+height: auto;
+padding: 10px;
 }
-.logo {
+.navCont{
+
+}
+#logo {
   border-radius: 100px;
-  margin-left: 45%;
-}
+  margin-left: 44%;
 
+}
+label:last-child{
+  float:right;
+}
 label{
+
   float: left;
   background-color: #544c6a;
   padding: 10px 70px 10px 70px;
   width: 130px;
   border-radius: 10px;
   border: 1px solid black;
-  margin:5px;
+  margin: 5px;
   text-align: center;
   color: white;
 }
@@ -43,12 +61,11 @@ section {
 
 }
 
-label:last-child{
-  float:right;
-}
+
 [id^="tab"]:checked + label {
   color: white;
   background-color: gray;
+
 }
 
 /*Pages fade*/
@@ -170,7 +187,6 @@ figure:hover figcaption {
 }
 /*Slideshow fade*/
 .fade {
-
   animation-name: fade;
   animation-duration: 1.5s;
 }
@@ -267,7 +283,7 @@ figure:hover figcaption {
   filter: invert(15%);
 }
 
- a{
+a{
   padding: 5px;
   text-decoration: none;
 }
@@ -323,8 +339,8 @@ figure:hover figcaption {
 
 .pageHeader {
     text-align: center;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
     color: #404040;
 }
   .btnContainer {
