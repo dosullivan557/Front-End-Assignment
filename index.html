@@ -10,6 +10,8 @@
 
 
   <body>
+    <button id="clearbutton" class="devFeatures">clear and refresh</button>
+    <button id="refreshButton" class="devFeatures">refresh</button>
     <header>
       <img id="logo" src="Images\cgif.jpg"/>
     <!-- Navigation bar section -->
@@ -18,11 +20,11 @@
   <div class="navCont">
     <nav id="navbar">
       <input id="tab1" type="radio" class="navItems" name="navBar" value="Home">
-      <label for="tab1">Home</label>
+      <label class="mainNav" for="tab1">Home</label>
 
       <div class="dropDownContainer">
         <input type="button" id="tab2" value="ddButton" name="navBar">
-        <label for="tab2">Artwork</label>
+        <label class="mainNav" for="tab2">Artwork</label>
         <div class="dropDownContent">
          <input type="radio" id="tab4" value="Paintings" class="navItems" name="navBar">
          <label class="dropDownItem" for="tab4">Paintings</label>
@@ -34,8 +36,7 @@
       <label for="tab3">About</label>
     </nav>
   </div>
-    <button id="clearbutton" class="devFeatures">clear and refresh</button>
-    <button id="refreshButton" class="devFeatures">refresh</button>
+
     <!--Home section -->
         <section id="HomeContent" class="Sections fadePages">
           <p class="pageHeader">Home</p>

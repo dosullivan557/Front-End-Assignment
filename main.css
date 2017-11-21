@@ -17,23 +17,21 @@ h1 {
 }
 
 #navbar {
-width: 60%;
+width: 70%;
 margin-left: auto;
 margin-right: auto;
 height: auto;
 padding: 10px;
+margin-right: none;
+  background-color: green;
 }
-.navCont{
 
-}
 #logo {
   border-radius: 100px;
   margin-left: 44%;
 
 }
-label:last-child{
-  float:right;
-}
+
 label{
   float: left;
   background-color: #544c6a;
@@ -44,6 +42,12 @@ label{
   margin: 5px;
   text-align: center;
   color: white;
+  margin-right: none;
+  display: inline;
+
+}
+label:last-child{
+  float: right;
 }
 main > input,
 section {
@@ -59,6 +63,7 @@ section {
   border-radius: 40px;
   position: relative;
   padding-bottom: 100px;
+  bottom: 100px;
 
 }
 
@@ -92,7 +97,6 @@ section {
 
 }
 .devFeatures {
-  display: none;
 }
 
 .dropDownContainer {
@@ -102,6 +106,7 @@ section {
     display: inline-block;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    z-index: 1;
 }
 
 /*Artwork*/
@@ -309,6 +314,13 @@ a{
   border-radius: 10px;
 }
 /*Media Statements*/
+@media screen and (max-width: 1230px){
+  #navbar{
+    width: 90%;
+
+  }
+
+}
 @media screen and (min-width: 1000px) {
   .slides{
     height: 600px;
@@ -349,5 +361,15 @@ a{
     width: 800px;
     top: 10px;
     bottom: 600px;
+  }
+}
+@media screen and (max-width:960px){
+ #navBar{
+   width: 100px;
+   display: block;
+ }
+  label{
+    background-color: blue;
+
   }
 }
