@@ -2,13 +2,13 @@
 // * @author Danny
 // */
 // //
-var navBar = document.getElementById("navbar");
-var navElems = document.getElementsByClassName("navItems");
-var pageStored=localStorage.page;
-var sections = document.getElementsByClassName("Sections");
-//dev vars
-var clearButton = document.getElementById("clearbutton");
-var refreshButton = document.getElementById("refreshButton");
+let navBar = document.getElementById("navbar");
+let navElems = document.getElementsByClassName("navItems");
+let pageStored=localStorage.page;
+let sections = document.getElementsByClassName("Sections");
+//dev lets
+let clearButton = document.getElementById("clearbutton");
+let refreshButton = document.getElementById("refreshButton");
 
 if(localStorage.page===undefined){
   navElems[0].checked=true;
@@ -28,7 +28,7 @@ refreshButton.addEventListener("click", refresh);
 *  make the remaining sections to invisible.
 */
 function changePage(){
-  for (var i = 0; i < navElems.length; i++) {
+  for (let i = 0; i < navElems.length; i++) {
     if(navElems[i].checked){
       localStorage.page = navElems[i].value;
       sections[i].style.display="block";
@@ -63,7 +63,7 @@ function setLoadPage(){
   /* Checks which one was saved, and checks the
   *  corresponding radio button
   */
-  for (var i = 0; i < navElems.length; i++) {
+  for (let i = 0; i < navElems.length; i++) {
     if(navElems[i].value===pageStored){
       navElems[i].checked=true;
       sections[i].style.display = "block";

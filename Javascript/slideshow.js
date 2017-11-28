@@ -3,19 +3,19 @@
 // */
 // //
 
-var index = 0;
-var i;
-var slides = document.getElementsByClassName("slides");
-var timeout;
-var paused = false;
+let index = 0;
+let i;
+let slides = document.getElementsByClassName("slides");
+let timeout;
+let paused = false;
 
 //Button elements for slideshow
-var pauseButton = document.getElementById("pauseButton");
-var nextButton = document.getElementById("nextButton");
-var prevButton = document.getElementById("prevButton");
+let pauseButton = document.getElementById("pauseButton");
+let nextButton = document.getElementById("nextButton");
+let prevButton = document.getElementById("prevButton");
 
 //googleSymbols
-var googleSymbols = document.getElementsByClassName("googleSymbols");
+let googleSymbols = document.getElementsByClassName("googleSymbols");
 googleSymbols[0].style.display = "block;"
 googleSymbols[1].style.display = "none";
 //Add Listeners
