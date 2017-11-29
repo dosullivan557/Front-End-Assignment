@@ -15,15 +15,21 @@ h1 {
   color: #544c6a;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
+.pageHeader {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #404040;
+}
 
 #navbar {
-width: 70%;
-margin-left: auto;
-margin-right: auto;
-height: auto;
-padding: 10px;
-margin-right: none;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding: 10px;
+  width: 300px;
 }
+
 
 #logo {
   border-radius: 100px;
@@ -41,18 +47,37 @@ label{
   margin: 5px;
   text-align: center;
   color: white;
-  margin-right: none;
-  display: inline;
+  margin-right: 5px;;
+  display: block;
+  background-color: purple;
+  width:120px;
+}
+#navBar{
+  height: auto;
+  padding: 10px;
+  width: 30px;
+  margin-bottom: 200px;
+}
+.slides{
+  width: 600px;
+  height: 400px;
+}
 
+.navItems{
+  z-index: 100;
 }
 label:last-child{
-  float: right;
+  margin-right: none;
+  margin-left: none;
+}
+label:nth-child(5){
+  /*margin-left: none;*/
 }
 main > input,
 section {
   display: none;
   padding: 1em;
-  clear: both;
+  clear: all;
 
 }
 
@@ -64,7 +89,7 @@ section {
   padding-bottom: 100px;
   bottom: 100px;
   box-shadow: 10px 10px 5px #888888;
-
+  margin-top: 200px;
 }
 
 
@@ -82,7 +107,7 @@ section {
 
 /*Dropdown*/
 .dropDownContent {
-  display: none;
+  display: block;
 }
 .dropDownItem:last-child{
   float:left;
@@ -93,12 +118,13 @@ section {
 }
 .dropDownContainer:hover{
   background-color: #fffaf0;
-  border: 1px solid #efefef;
+  border: 1px solid #000000;
   border-top: none;
   box-shadow: 7px 7px 5px #888888;
 
 }
 .devFeatures {
+  display: none;
 }
 
 .dropDownContainer {
@@ -163,36 +189,28 @@ figure:hover figcaption {
   margin-right: auto;
   border-radius: 10px;
   position: relative;
-  bottom: 450px;
 }
 #nextButton {
   float: right;
-  width: 100px;
-  height: 450px;
+
+}
+#pauseButton {
+  margin-left: 150px;
 }
 
-#pauseButton {
-  width: 395px;
-  height: 450px;
-}
 .googleSymbols {
   display:none;
 }
-#prevButton {
+
+.slideshowButton{
+  background-color: #544c6a;
+  color: white;
   width: 100px;
-  height: 450px;
+  height: 30px;
+  border: none;
 
 }
-.slideshowButton{
-  background-color: transparent;
-  color: white;
-  border: none;
-}
-.slideshowButton:active {
-	background-color: #efefef;
-  opacity: 0.1;
-	transition: background-color : 200ms ease-in;
-}
+
 /*Slideshow fade*/
 .fade {
   animation-name: fade;
@@ -266,22 +284,23 @@ figure:hover figcaption {
   width: 98%;
   height: 200px;
   display: inline-block;
-  position: relative;
-  top: 100px;
 }
 .socialSection{
   float: right;
   position: relative;
   display: block;
   height: auto;
+  width: 100%;
+  bottom: 80px;
 
 }
 .contactSection {
-
   float: left;
   height: auto;
+  position: relative;
 }
 .socialImg {
+  float: right;
   height: 50px;
   width: 50px;
   position: relative;
@@ -315,14 +334,12 @@ a{
   filter: grayscale(100%);
   border-radius: 10px;
 }
+
+
+
+
 /*Media Statements*/
-@media screen and (max-width: 1230px){
-  #navbar{
-    width: 90%;
 
-  }
-
-}
 @media screen and (min-width: 1000px) {
   .slides{
     height: 600px;
@@ -353,25 +370,28 @@ a{
   }
 
 
-.pageHeader {
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
-    font-size: 50px;
-    color: #404040;
-}
   .btnContainer {
     width: 800px;
     top: 10px;
     bottom: 600px;
   }
-}
-@media screen and (max-width:960px){
- #navBar{
-   width: 100px;
-   display: block;
- }
-  label{
-    background-color: blue;
 
+
+
+}
+@media screen and (min-width:960px){
+ #navbar{
+   width: 850px;
+   margin-bottom: 10px;
+ }
+
+  .dropDownContent{
+    display: none;
+  }
+#tab3{
+    clear: right;
+  }
+  label:last-child{
+    float: right;
   }
 }
