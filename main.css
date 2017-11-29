@@ -23,7 +23,6 @@ margin-right: auto;
 height: auto;
 padding: 10px;
 margin-right: none;
-  background-color: green;
 }
 
 #logo {
@@ -64,6 +63,7 @@ section {
   position: relative;
   padding-bottom: 100px;
   bottom: 100px;
+  box-shadow: 10px 10px 5px #888888;
 
 }
 
@@ -89,11 +89,13 @@ section {
 }
 .dropDownContainer:hover .dropDownContent{
   display: block;
+
 }
 .dropDownContainer:hover{
   background-color: #fffaf0;
   border: 1px solid #efefef;
   border-top: none;
+  box-shadow: 7px 7px 5px #888888;
 
 }
 .devFeatures {
@@ -299,7 +301,7 @@ a{
   float: right;
   position:relative;
   left:20px;
-  display: none;
+  /*display: none;*/
 }
 
 
