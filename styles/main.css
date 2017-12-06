@@ -214,13 +214,11 @@ figure {
 
 /*Slideshow fade*/
 .fade {
-  animation-name: fade;
+  animation-name: fade-in-out;
   animation-duration: 1s;
 }
 
-
-
-@keyframes fade {
+@keyframes fade-in-out {
   from {opacity: 0.1}
   to {opacity: 1}
 
@@ -284,30 +282,25 @@ figure:hover figcaption {
 /*Footer styles*/
 
 .socialSection{
-  float: right;
   position: relative;
   display: block;
   height: auto;
-  width: 100%;
   bottom: 0;
 
 }
 
 .socialImg {
-  float: right;
   height: 50px;
   width: 50px;
   position: relative;
 
 }
 
-/*a{
-  padding: 5px;
-  text-decoration: none;
-}*/
-.fb-like {
-  position: relative;
-  bottom: 0;
+.fb-like{
+  position:relative;
+  float: left;
+  right:0;
+  padding: none;
 }
 
 
@@ -354,13 +347,7 @@ figure:hover figcaption {
     cursor: pointer;
     color: white;
   }
-  .fb-like {
-    border:none;
-    overflow:hidden;
-    float: right;
-    position:relative;
-    left:20px;
-  }
+
   .btnContainer {
     width: 800px;
     top: 10px;
