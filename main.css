@@ -325,7 +325,7 @@ figure:hover figcaption {
 
 /*Media Statements*/
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1000px) {
   .slides{
     height: 600px;
     width: 800px;
@@ -368,7 +368,7 @@ figure:hover figcaption {
 
 
 }
-@media screen and (min-width:960px){
+@media screen and (min-width:1400px){
  #navbar{
    margin-left: auto;
    margin-right: auto;
