@@ -327,7 +327,9 @@ figure:hover figcaption {
 /*Media Statements*/
 
 @media screen and (min-width: 1000px) {
-
+  label:hover{
+    cursor:pointer;
+  }
   .slides{
     height: 600px;
     width: 800px;
@@ -371,12 +373,12 @@ figure:hover figcaption {
 
 }
 @media screen and (min-width:1400px){
- #navbar{
-   margin-left: auto;
-   margin-right: auto;
-   width: 850px;
-   /*margin: none;*/
-   margin-bottom: 10px;
+
+  #navbar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    margin-bottom: 10px;
  }
  .dropDownContainer:hover .dropDownContent{
    display: block;
