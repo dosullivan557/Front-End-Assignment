@@ -15,10 +15,10 @@ h1 {
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 .pageHeader {
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
-    font-size: 50px;
-    color: #404040;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  color: #404040;
 }
 
 #navbar {
@@ -39,9 +39,9 @@ h1 {
   animation-duration: 3s;
 }
   @keyframes sway{
-      0%{transform: rotate(10deg);}
-      50%{transform: rotate(-5deg)}
-      100%{transform: rotate(10deg);}
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
   }
 label{
   float: left;
@@ -75,9 +75,7 @@ label:last-child{
   margin-right: none;
   margin-left: none;
 }
-label:nth-child(5){
-  /*margin-left: none;*/
-}
+
 main > input,
 section {
   display: none;
@@ -134,12 +132,12 @@ section {
 
 .dropDownContainer {
   position: relative;
-    max-width:282px;
-    height: 150px;
-    display: inline-block;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    z-index: 1;
+  max-width:282px;
+  height: 150px;
+  display: inline-block;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 1;
 }
 
 /*Artwork*/
@@ -326,7 +324,6 @@ a{
   float: right;
   position:relative;
   left:20px;
-  display: none;
 }
 
 
@@ -348,38 +345,38 @@ a{
 
 @media screen and (min-width: 1000px) {
   .slides{
-    height: 600px;
-    width: 800px;
+  height: 600px;
+  width: 800px;
   }
   #prevButton {
-    height: 30px;
+  height: 30px;
 
   }
   #nextButton{
-    height: 30px;
-    float: right;
+  height: 30px;
+  float: right;
 
   }
   #pauseButton {
-    height: 30px;
-    width: 180px;
-    margin-left: 200px;
+  height: 30px;
+  width: 180px;
+  margin-left: 200px;
   }
   .slideshowButton {
-    position: relative;
-    border: 1px solid black;
-    height: auto;
-    background-color: #544c6a;
-    cursor: pointer;
-    color: white;
+  position: relative;
+  border: 1px solid black;
+  height: auto;
+  background-color: #544c6a;
+  cursor: pointer;
+  color: white;
 
   }
 
 
   .btnContainer {
-    width: 800px;
-    top: 10px;
-    bottom: 600px;
+  width: 800px;
+  top: 10px;
+  bottom: 600px;
   }
 
 
@@ -395,16 +392,16 @@ a{
  }
 
   .dropDownContent{
-    display: none;
+  display: none;
   }
 #tab3{
-    clear: right;
+  clear: right;
   }
   label:last-child{
-    float: right;
+  float: right;
   }
   header{
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   }
 }

@@ -45,10 +45,8 @@ function next() {
 	//cancel current pause
 	clearTimeout(timeout);
 	//changes the name of the pause button
-	if (paused) {
+	if (paused)
 		pause();
-
-	}
 	//starts the slideshow again
 	showSlides();
 }
@@ -71,14 +69,11 @@ function pause() {
 //previous photo button handler
 function previous() {
 	//change button text
-	if (paused) {
+	if (paused)
 		pause();
-	}
+
 	//clears the timeout
 	clearTimeout(timeout);
-	for ( i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";
-	}
 	index--;
 	if (index < 1)
 		index = slides.length;
