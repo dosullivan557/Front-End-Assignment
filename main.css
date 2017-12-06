@@ -325,7 +325,7 @@ figure:hover figcaption {
 
 /*Media Statements*/
 
-@media screen and (min-width: 1450px) {
+@media screen and (min-width: 1500px) {
   .slides{
     height: 600px;
     width: 800px;
