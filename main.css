@@ -33,10 +33,16 @@ h1 {
 #logo {
   border-radius: 100px;
   margin-left: 44%;
-height: 150px;
-width: 150px;
+  height: 150px;
+  width: 150px;
+  animation: sway 3.5s ease-in-out forwards infinite;
+  animation-duration: 3s;
 }
-
+  @keyframes sway{
+      0%{transform: rotate(10deg);}
+      50%{transform: rotate(-5deg)}
+      100%{transform: rotate(10deg);}
+  }
 label{
   float: left;
   background-color: #544c6a;
@@ -213,7 +219,7 @@ figure:hover figcaption {
 /*Slideshow fade*/
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 
@@ -221,6 +227,7 @@ figure:hover figcaption {
 @keyframes fade {
   from {opacity: 0.1}
   to {opacity: 1}
+
 }
 .material-icons{
   color: white;
