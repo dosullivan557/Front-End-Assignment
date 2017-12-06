@@ -115,17 +115,7 @@ section {
 .dropDownItem:last-child{
   float:left;
 }
-.dropDownContainer:hover .dropDownContent{
-  display: block;
 
-}
-.dropDownContainer:hover{
-  background-color: #fffaf0;
-  border: 1px solid #000000;
-  border-top: none;
-  box-shadow: 7px 7px 5px #888888;
-
-}
 .devFeatures {
   display: none;
 }
@@ -165,7 +155,7 @@ figcaption {
 }
 
 
-figure:hover figcaption {
+figure {
   transform: translateY(0em);
   opacity: .78;
   background-color: white;
@@ -298,11 +288,7 @@ figure:hover figcaption {
   bottom: 80px;
 
 }
-.contactSection {
-  float: left;
-  height: auto;
-  position: relative;
-}
+
 .socialImg {
   float: right;
   height: 50px;
@@ -310,20 +296,14 @@ figure:hover figcaption {
   position: relative;
 
 }
-.socialImg:hover {
-  filter: invert(15%);
-}
 
-a{
+/*a{
   padding: 5px;
   text-decoration: none;
-}
+}*/
 .fb-like {
-  border:none;
-  overflow:hidden;
-  float: right;
-  position:relative;
-  left:20px;
+  position: relative;
+  bottom: 0;
 }
 
 
@@ -340,45 +320,48 @@ a{
 
 
 
-
 /*Media Statements*/
 
 @media screen and (min-width: 1000px) {
   .slides{
-  height: 600px;
-  width: 800px;
+    height: 600px;
+    width: 800px;
   }
   #prevButton {
   height: 30px;
-
   }
   #nextButton{
-  height: 30px;
-  float: right;
-
+    height: 30px;
+    float: right;
   }
   #pauseButton {
-  height: 30px;
-  width: 180px;
-  margin-left: 200px;
+    height: 30px;
+    width: 180px;
+    margin-left: 200px;
   }
   .slideshowButton {
-  position: relative;
-  border: 1px solid black;
-  height: auto;
-  background-color: #544c6a;
-  cursor: pointer;
-  color: white;
-
+    position: relative;
+    border: 1px solid black;
+    height: auto;
+    background-color: #544c6a;
+    cursor: pointer;
+    color: white;
   }
-
-
+  .fb-like {
+    border:none;
+    overflow:hidden;
+    float: right;
+    position:relative;
+    left:20px;
+  }
   .btnContainer {
-  width: 800px;
-  top: 10px;
-  bottom: 600px;
+    width: 800px;
+    top: 10px;
+    bottom: 600px;
   }
-
+  .socialImg:hover {
+    filter: invert(15%);
+  }
 
 
 }
@@ -390,18 +373,33 @@ a{
    /*margin: none;*/
    margin-bottom: 10px;
  }
+ .dropDownContainer:hover .dropDownContent{
+   display: block;
 
+ }
+ .dropDownContainer:hover{
+   background-color: #fffaf0;
+   border: 1px solid #000000;
+   border-top: none;
+   box-shadow: 7px 7px 5px #888888;
+
+ }
+ figure:hover figcaption {
+   transform: translateY(0em);
+   opacity: .78;
+   background-color: white;
+ }
   .dropDownContent{
-  display: none;
+    display: none;
   }
 #tab3{
-  clear: right;
+    clear: right;
   }
   label:last-child{
-  float: right;
+    float: right;
   }
   header{
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
