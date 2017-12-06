@@ -1,5 +1,8 @@
 body {
   background-color: #efefef;
+  margin: 0;
+  padding: 0;
+
 }
 input{
   display: none;
@@ -19,6 +22,7 @@ h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 50px;
   color: #404040;
+  margin:15px;
 }
 
 #navbar {
@@ -158,12 +162,13 @@ figure {
   background-color: #fffaf0;
   border-radius: 40px;
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   bottom: 100px;
   box-shadow: 10px 10px 5px #888888;
   width:800px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
 }
 
 /*Slideshow*/
@@ -322,6 +327,7 @@ figure:hover figcaption {
 /*Media Statements*/
 
 @media screen and (min-width: 1000px) {
+
   .slides{
     height: 600px;
     width: 800px;
