@@ -38,6 +38,8 @@ h1 {
   margin:15px;
 }
 
+header{margin-left: -70px;}
+/*Navbar*/
 .navbar {
   margin-left: auto;
   margin-right: auto;
@@ -65,15 +67,14 @@ label{
   float: left;
   background-color: #544c6a;
   padding: 10px 70px 10px 70px;
-  width: 130px;
+  width: 120px;
   border-radius: 10px;
   border: 1px solid black;
   margin: 5px;
   text-align: center;
   color: white;
-  margin-right: 5px;;
+  margin-right: 5px;
   display: block;
-  width:120px;
 }
 
 
@@ -284,21 +285,11 @@ figure:hover figcaption {
 
 /*Footer styles*/
 
+
 .socialSection{
-  position: relative;
-  display: block;
-  height: auto;
-  bottom: 0;
-
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.socialImg {
-  height: 50px;
-  width: 50px;
-  position: relative;
-
-}
-
 .fb-like{
   position:relative;
   float: left;
@@ -309,6 +300,11 @@ figure:hover figcaption {
   width: auto;
 }
 
+.socialImg {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
 
 /*About section*/
 .portrait {
@@ -367,6 +363,10 @@ figure:hover figcaption {
 
 }
 @media screen and (min-width:1400px){
+  .socialSection{
+    margin-left: auto;
+    margin-right: auto;
+}
 
   .navbar{
     margin-left: auto;
@@ -394,11 +394,9 @@ figure:hover figcaption {
   .dropDownContent{
     display: none;
   }
-/*tab3{
-    clear: right;
-  }*/
+
   label:last-child{
-    float: right;
+    /*float: right;*/
   }
   header{
     margin-left: auto;
