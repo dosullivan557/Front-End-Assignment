@@ -2,20 +2,34 @@ body {
   background-color: #efefef;
   margin: 0;
   padding: 0;
-
 }
+
 input{
   display: none;
 }
 header{
-margin-left: -12%;
-
+  margin-left: -12%;
 }
 h1 {
-  margin-left: 42%;
+  margin-left: 40%;
   font-family: 'Great Vibes', cursive;
   color: #544c6a;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  letter-spacing: .15em;
+  animation:
+  typing 1.5s steps(40, end),
+  blink-caret 1s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 25%}
+}
+@keyframes blink-caret {
+  from, to { border-color: orange }
+  50% { border-color: transparent; }
 }
 .pageHeader {
   text-align: center;
@@ -25,16 +39,16 @@ h1 {
   margin:15px;
 }
 
-#navbar {
+.navbar {
   margin-left: auto;
   margin-right: auto;
-  height: auto;
+  height: 400px;
   padding: 10px;
   width: 300px;
 }
 
 
-#logo {
+.logo {
   border-radius: 100px;
   margin-left: 44%;
   height: 150px;
@@ -62,12 +76,8 @@ label{
   width:120px;
   cursor:
 }
-#navBar{
-  height: auto;
-  padding: 10px;
-  width: 30px;
-  margin-bottom: 200px;
-}
+
+
 .slides{
   width: 600px;
   height: 400px;
@@ -76,10 +86,7 @@ label{
 .navItems{
   z-index: 100;
 }
-label:last-child{
-  margin-right: none;
-  margin-left: none;
-}
+
 
 main > input,
 section {
@@ -191,11 +198,11 @@ figure {
   border-radius: 10px;
   position: relative;
 }
-#nextButton {
+.nextButton {
   float: right;
 
 }
-#pauseButton {
+.pauseButton {
   margin-left: 150px;
 }
 
@@ -267,7 +274,6 @@ figcaption {
   padding: .25em;
   transform: translateY(4em);
   background: #fff;
-  /* background: rgba( 255, 255, 255, 0 ); */
   opacity: 0;
   transition: all .5s;
 }
@@ -327,14 +333,14 @@ figure:hover figcaption {
     height: 600px;
     width: 800px;
   }
-  #prevButton {
+  .prevButton {
   height: 30px;
   }
-  #nextButton{
+  .nextButton{
     height: 30px;
     float: right;
   }
-  #pauseButton {
+  .pauseButton {
     height: 30px;
     width: 180px;
     margin-left: 200px;
@@ -361,10 +367,11 @@ figure:hover figcaption {
 }
 @media screen and (min-width:1400px){
 
-  #navbar{
+  .navbar{
     margin-left: auto;
     margin-right: auto;
     width: 850px;
+    height: 200px;
     margin-bottom: 10px;
  }
  .dropDownContainer:hover .dropDownContent{
@@ -386,9 +393,9 @@ figure:hover figcaption {
   .dropDownContent{
     display: none;
   }
-#tab3{
+/*tab3{
     clear: right;
-  }
+  }*/
   label:last-child{
     float: right;
   }
