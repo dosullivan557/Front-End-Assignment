@@ -81,5 +81,5 @@ function previous() {
 	if (index < 1)
 		index = slides.length;
 	slides[index - 1].style.display = "block";
-	timeout = setTimeout(showSlides, 3000);
+		timeout = setTimeout(showSlides, 3000);
 }

@@ -7,11 +7,10 @@ body {
 input{
   display: none;
 }
-header{
-  margin-left: -12%;
-}
+
 h1 {
-  margin-left: 40%;
+  width: 330px;
+  margin-left: 38%;
   font-family: 'Great Vibes', cursive;
   color: #544c6a;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
@@ -20,15 +19,15 @@ h1 {
   white-space: nowrap;
   letter-spacing: .15em;
   animation:
-  typing 1.5s steps(40, end),
-  blink-caret 1s step-end infinite;
+  typing 2s steps(40, end),
+  blink 1s infinite;
 }
 @keyframes typing {
-  from { width: 0 }
-  to { width: 25%}
+  from { width: 0% }
+  to { width: 23%}
 }
-@keyframes blink-caret {
-  from, to { border-color: orange }
+@keyframes blink {
+  0% { border-color: orange }
   50% { border-color: transparent; }
 }
 .pageHeader {
@@ -50,17 +49,18 @@ h1 {
 
 .logo {
   border-radius: 100px;
-  margin-left: 44%;
+  margin-left: 43%;
   height: 150px;
   width: 150px;
   animation: sway 3.5s ease-in-out forwards infinite;
   animation-duration: 3s;
+
 }
-  @keyframes sway{
-    0%{transform: rotate(10deg);}
-    50%{transform: rotate(-5deg)}
-    100%{transform: rotate(10deg);}
-  }
+@keyframes sway{
+  0%{transform: rotate(10deg);}
+  50%{transform: rotate(-5deg)}
+  100%{transform: rotate(10deg);}
+}
 label{
   float: left;
   background-color: #544c6a;
@@ -74,7 +74,6 @@ label{
   margin-right: 5px;;
   display: block;
   width:120px;
-  cursor:
 }
 
 
@@ -92,8 +91,6 @@ main > input,
 section {
   display: none;
   padding: 1em;
-  clear: all;
-
 }
 
 
@@ -181,14 +178,14 @@ figure {
 /*Slideshow*/
 
 .slides {
-	margin-top: 10px;
-	display: none;
-	height: 450px;
-	width: 600px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 5px;
+  margin-top: 10px;
+  display: none;
+  height: 450px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 .btnContainer {
@@ -249,9 +246,9 @@ figure {
 
 
 .container{
-	display: flex;
-	flex-wrap: wrap;
-	text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -306,7 +303,10 @@ figure:hover figcaption {
   position:relative;
   float: left;
   right:0;
-  padding: none;
+  padding: 0;
+  border:none;
+  height: 110px;
+  width: auto;
 }
 
 
@@ -326,6 +326,7 @@ figure:hover figcaption {
 /*Media Statements*/
 
 @media screen and (min-width: 1000px) {
+
   label:hover{
     cursor:pointer;
   }
