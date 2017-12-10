@@ -1,17 +1,21 @@
 # Front End Web Development Practical Coursework
-
-This project is a website dedicated to artwork by cloudyy.gif, and is used to show the work done by her so far.
+## Introduction
+![CSS3 Logo](https://qph.ec.quoracdn.net/main-qimg-b5ca36317a8735169463da56f520f4eb.webp)
+This project is a website dedicated to artwork by cloudyy.gif, and is used to show the work done by her so far. For this website I am using HTML5, CSS3, and JS5, which are the 3 world's leading front end web development languages.
 ## Checklist
-- [ ] Introduction
+- [x] Introduction
 - [x] Designs
-- [x] Switching page js
-- [x] Slideshow js
+- [x] Switching page Javascript
+- [x] Slideshow Javascript
 - [x] SVG
 - [x] API
 - [x] Accessibility
 - [ ] Issues
 - [x] Built With
 - [x] Versioning
+- [ ] HTML Validator
+- [x] CSS Validator
+- [ ] Javascript Validator
 - [ ] Conclusion
 ## Design work
 ![general design](images/designs/general.jpg)
@@ -53,7 +57,13 @@ These are what I used to develop this website.
 ## Versioning
 
 I used Git for version control. This is the world's leader in version control.
-
+## HTML Validator
+[HTML5 Validator](https://validator.w3.org/)
+## CSS Validator
+![Valid CSS!](http://jigsaw.w3.org/css-validator/images/vcss)
+[CSS3 Validator](https://jigsaw.w3.org/css-validator/)
+## Javascript Validator
+There are no issues within the Javascript. This is shown because the console shows no errors.
 ## Conclusion
 
 
