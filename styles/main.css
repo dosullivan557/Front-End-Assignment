@@ -317,7 +317,12 @@ figure:hover figcaption {
   border-radius: 10px;
 }
 
-
+.wiki{
+list-style-type: none;
+}
+.wiki li {
+  padding: 25px;
+}
 
 /*Media Statements*/
 
