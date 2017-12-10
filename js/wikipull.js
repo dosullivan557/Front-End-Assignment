@@ -48,18 +48,10 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
     // loop through the result pages by pageid
     for(key in data.query.pages) {
       let tmp = data.query.pages[key];
-      if (tmp.thumbnail) {
-        img = `<img src="${tmp.thumbnail.source}" alt="${tmp.title}"> `;
-      }
-      let title = `<strong><a href="${tmp.fullurl}">${tmp.title}</a></strong>`;
-      let extract = `<span class="txt">${tmp.extract}</span>`;
-      let langLinks = "";
-      for (k in tmp.langlinks) {
-        if (languages.includes(tmp.langlinks[k].lang)) {
-          langLinks += `<a href=${tmp.langlinks[k].url}>${tmp.langlinks[k].lang}</a> `;
-        }
-      }
-      theData += `<li>${img} ${title} ${extract} <span class="langs">${langLinks}</span></li>`;
+
+      let title = "Read more about " + `${tmp.title}` +`<strong><a href="${tmp.fullurl}">`+" Here"+ `</a></strong>`;
+
+      theData += `<li> ${title} <span class="langs">${langLinks}</span></li>`;
     }
     demoJSON.innerHTML = theData;
   }
@@ -67,7 +59,7 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
   // the API call is triggered once the user submits a query
 
     // complete the request url
-    let wiki = baseURL + "Vincent Van Gogh painting";
+    let wiki = baseURL + "Vincent Van Gogh";
     // open a connection to the requested API url
     xhr.open("GET", wiki, true);
     // be polite to Wikipedia
