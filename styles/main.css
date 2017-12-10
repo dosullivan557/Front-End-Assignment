@@ -206,7 +206,8 @@ figure {
 
 .googleSymbols {
   /*display:none;*/
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .slideshowButton{
