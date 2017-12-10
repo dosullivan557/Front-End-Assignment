@@ -16,7 +16,7 @@ let prevButton = document.getElementById("prevButton");
 
 //googleSymbols
 let googleSymbols = document.getElementsByClassName("googleSymbols");
-googleSymbols[0].style.display = "block;"
+googleSymbols[0].style.display = "block";
 googleSymbols[1].style.display = "none";
 //Add Listeners
 pauseButton.addEventListener("click", pause);
