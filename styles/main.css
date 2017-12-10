@@ -205,8 +205,8 @@ figure {
 }
 
 .googleSymbols {
-  display:none;
-  text-align: center;
+  /*display:none;*/
+  margin-left: 75px;
 }
 
 .slideshowButton{
