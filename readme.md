@@ -31,6 +31,9 @@ This project is a website dedicated to artwork by cloudyy.gif, and is used to sh
 This is included in the savepage.js file. It firstly adds all the listeners that will be needed to the elements in the HTML. One of these was to get all the elements with the ID of navItems (Which includes all of the elements from the navigation bar). I added the listener to this to to test for any clicks. When a click in this is detected, it checks to see which of the elements has been selected (the navItems are radio buttons, so only 1 element can be selected at any one time). Using this, it loops through the elements of navItems, and makes all of the sections `display: none;`, apart from the one which represents the selected, which is made `display:block;`.
 ### Slideshow
 This is included in the slideshow.js file. This adds all of the event listeners to the 3 buttons used in this page; previous, pause and next. This then uses `window.onload = showSlides();`. This calls the main function of this file, which is where the picture changes occur. This function loops through all of the slides and makes them invisible. Then a local variable (which holds the value of the current image) is increased, so then this value can be called to get a specific image from the array of slides, and make that image visible. This then has a setTimeout, which specifies a time to wait for, before running the function called, which in this case is itself. For the handlers for the buttons, the next ones clear the current timeout, and then call the main function again, which will promptly change the image. The previous does the same thing, but it has to accommodate for the possibility that the counter could become a negative number, and therefore, I check this possibility. Finally, the pause button checks whether it is currently paused, and if it is, it displays a play button, otherwise it will display a pause button.
+
+### Dynamically added information
+The text on the about page is added to the page dynamically from a JSON file. It reads all the text from the `data.js` file, and then places the information on the page. It processes the data by using title and paragraphs to separate the information into the corresponding sections. However, as each section my not include a title, if the title of a section is none, then no title is added.
 ## SVG
 * I used an SVG which was found [here](https://commons.wikimedia.org/wiki/Category:SVG_cloud_icons).
 * I used and adapted the animate from [here](http://www.tutorialized.com/tutorial/Create-a-Gently-Swaying-Image-With-CSS3-Animation/85877).
@@ -44,7 +47,8 @@ I am using 2 api's on my website; Flickr and Wikipedia. In the about tab, there 
 My site has implemented it by having Alternative text for images. This is for screen readers, so it can easily tell the user what is being displayed.
 
 ## Issues
-
+### Selling
+I did not implement a feature which was discussed during the conception of the website. This was the backend features for adding backend stuff to allow the selling of information. This is because of the heavy influence on things such as dynamic pages for each element, as well as the database to support the system.
 ## Built With
 These are what I used to develop this website.
 * [Atom](https://atom.io) - Text editor
