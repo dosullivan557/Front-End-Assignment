@@ -76,7 +76,7 @@ function previous() {
 	clearTimeout(timeout);
 	for ( i = 0; i < slides.length; i++) {
 		slides[i].style.display = "none";
-}
+	}
 	index--;
 	if (index < 1)
 		index = slides.length;
