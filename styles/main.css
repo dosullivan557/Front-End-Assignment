@@ -38,7 +38,10 @@ h1 {
   margin:15px;
 }
 
-header{margin-left: -70px;}
+header{
+  margin-left: -70px;
+}
+
 /*Navbar*/
 .navbar {
   margin: 0 auto;
