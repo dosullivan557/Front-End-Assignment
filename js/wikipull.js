@@ -1,6 +1,4 @@
-"use strict";
 
-(function(){
   // creates a new object called xhr
   // which will handle the API call
   let xhr = new XMLHttpRequest();
@@ -59,7 +57,8 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
   // the API call is triggered once the user submits a query
 
     // complete the request url
-    let wiki = baseURL + "Vincent Van Gogh";
+    function wikipedia(search){
+    let wiki = baseURL + search;
     // open a connection to the requested API url
     xhr.open("GET", wiki, true);
     // be polite to Wikipedia
@@ -75,7 +74,5 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
         // deal with the parsed JSON data
         gatherData(response);
       }
-    };
-
-
-}());
+    }
+  }

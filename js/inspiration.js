@@ -6,5 +6,6 @@ function check(){
   let strUser = artist.options[artist.selectedIndex].value;
 
   console.log(strUser);
-
+  wikipedia(strUser);
+  flickr(strUser);
 }
