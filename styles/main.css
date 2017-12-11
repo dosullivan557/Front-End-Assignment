@@ -305,6 +305,7 @@ figure:hover figcaption {
   height: 50px;
   width: 50px;
   position: relative;
+  float: right;
 }
 
 /*About section*/
