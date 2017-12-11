@@ -47,9 +47,15 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
     for(key in data.query.pages) {
       let tmp = data.query.pages[key];
 
-      let title = "Read more about " + `${tmp.title}` +`<strong><a href="${tmp.fullurl}">`+" Here"+ `</a></strong>`;
-
-      theData += `<li> ${title} <span class="langs">${langLinks}</span></li>`;
+      let title = `<strong><a href="${tmp.fullurl}">${tmp.title}</a></strong>`;
+      let extract = `<span class="txt">${tmp.extract}</span>`;
+      let langLinks = "";
+      for (k in tmp.langlinks) {
+        if (languages.includes(tmp.langlinks[k].lang)) {
+          langLinks += `<a href=${tmp.langlinks[k].url}>${tmp.langlinks[k].lang}</a> `;
+        }
+      }
+      theData += `<li>${img} ${title} ${extract} <span class="langs">${langLinks}</span></li>`;
     }
     demoJSON.innerHTML = theData;
   }
