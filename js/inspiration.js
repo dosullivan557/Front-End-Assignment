@@ -1,3 +1,8 @@
+// /**
+// * @author Danny
+// */
+// //
+
 let artist = document.getElementById("artists");
 
 artist.addEventListener("change", check);

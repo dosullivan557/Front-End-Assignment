@@ -1,3 +1,7 @@
+// /**
+// * @author Danny
+// */
+// //
 (function(){
   let title = document.getElementById("aboutName");
   let centreSection = document.getElementById("aboutSection");
