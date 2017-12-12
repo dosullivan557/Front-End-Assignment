@@ -15,16 +15,15 @@
   for(i = 0; i < titleArray.length; i++){
     let tt = document.createElement("P");
     tt.setAttribute("class", "slidetext");
-    let h4 = document.createElement("H4");
     let h4x = document.createTextNode(titleArray[i]);
     if (titleArray[i]!=="none") {
-    h4.appendChild(h4x);
-  }
+      document.getElementById("printsHeader").appendChild(h4x);
+    }
 
     let p1 = document.createElement("P");
     let p2 = document.createTextNode(textArray[i]);
     p1.appendChild(p2);
-    tt.appendChild(h4);
+    // tt.appendChild(h4);
     tt.appendChild(p1);
     centreSection.append(tt);
   }
