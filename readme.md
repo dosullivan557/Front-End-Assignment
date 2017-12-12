@@ -42,7 +42,9 @@ The text on the about page is added to the page dynamically from a JSON file. It
 I am using 2 api's on my website; Flickr and Wikipedia. In the about tab, there is a section which is dedicated to inspirations. Using this information, I pull in images by this artist (Vincent Van Gogh), and it displays these images on the page. I then pull in a Wikipedia link to a page about him, and then displays it as an anchor tag on the website.
 
 ## Image compression
-I used a website that applies compression algorithms to different image files and removes all unnecessary data from the image file. I used [Imagerecycle](https://www.imagerecycle.com), which uses an algorithm which changes the compression method depending on what file extension is being used.
+I used a website that applies compression algorithms to different image files and removes all unnecessary data from the image file. I used [Imagerecycle](https://www.imagerecycle.com), which uses an algorithm which changes the compression method depending on what file extension is being used. This allowed me to save 16.64MB of data.
+## Quality and performance
+[Dareboost](https://www.dareboost.com/) allows web developers to see what practices are being used on a website, as well as saying which ones are good or bad. As well as this, the website breaks down loads of information about the website, including time load, what is taking the time, and recommended practices.z
 
 ## Accessibility
 [Accessibility - W3C - World Wide Web Consortium](https://www.w3.org/standards/webdesign/accessibility). I used this site to help me understand and implement more accessibility into my website.
