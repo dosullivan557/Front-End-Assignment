@@ -15,7 +15,7 @@ This project is a website dedicated to artwork by cloudyy.gif, and is used to sh
 - [x] Versioning
 - [ ] HTML Validator
 - [x] CSS Validator
-- [ ] Javascript Validator
+- [x] Javascript Validator
 - [ ] Conclusion
 ## Design work
 ![general design](images/designs/general.jpg)
@@ -51,8 +51,10 @@ I used a website that applies compression algorithms to different image files an
 My site has implemented it by having Alternative text for images. This is for screen readers, so it can easily tell the user what is being displayed.
 
 ## Issues
+
 ### Selling
 I did not implement a feature which was discussed during the conception of the website. This was the backend features for adding backend stuff to allow the selling of information. This is because of the heavy influence on things such as dynamic pages for each element, as well as the database to support the system.
+
 ## Built With
 These are what I used to develop this website.
 * [Atom](https://atom.io) - Text editor
