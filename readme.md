@@ -40,20 +40,24 @@ The text on the about page is added to the page dynamically from a JSON file. It
 
 ## API
 I am using 2 api's on my website; Flickr and Wikipedia. In the about tab, there is a section which is dedicated to inspirations. Using this information, I pull in images by this artist (Vincent Van Gogh), and it displays these images on the page. I then pull in a Wikipedia link to a page about him, and then displays it as an anchor tag on the website.
+***
 
 ## Image compression
 I used a website that applies compression algorithms to different image files and removes all unnecessary data from the image file. I used [Imagerecycle](https://www.imagerecycle.com), which uses an algorithm which changes the compression method depending on what file extension is being used. This allowed me to save 16.64MB of data.
 ## Quality and performance
 [Dareboost](https://www.dareboost.com/) allows web developers to see what practices are being used on a website, as well as saying which ones are good or bad. As well as this, the website breaks down loads of information about the website, including time load, what is taking the time, and recommended practices.z
-
 ## Accessibility
 [Accessibility - W3C - World Wide Web Consortium](https://www.w3.org/standards/webdesign/accessibility). I used this site to help me understand and implement more accessibility into my website.
 My site has implemented it by having Alternative text for images. This is for screen readers, so it can easily tell the user what is being displayed.
+***
+
 
 ## Issues
 
 ### Selling
 I did not implement a feature which was discussed during the conception of the website. This was the backend features for adding backend stuff to allow the selling of information. This is because of the heavy influence on things such as dynamic pages for each element, as well as the database to support the system.
+
+***
 
 ## Built With
 These are what I used to develop this website.
@@ -62,11 +66,13 @@ These are what I used to develop this website.
 * [Safari](https://support.apple.com/en_GB/downloads/safari) - Browser 1
 * [Chrome](https://www.google.com/chrome/browser/desktop/index.html) - Browser 2
 
-
-
 ## Versioning
 
 I used Git for version control. This is the world's leader in version control.
+***
+
+
+# Validation
 ## HTML Validator
 [HTML5 Validator](https://validator.w3.org/)
 ## CSS Validator
@@ -74,9 +80,9 @@ I used Git for version control. This is the world's leader in version control.
 [CSS3 Validator](https://jigsaw.w3.org/css-validator/)
 ## Javascript Validator
 There are no issues within the Javascript. This is shown because the console shows no errors.
-## Conclusion
 ***
-***
+# Conclusion
+
 
 ## Authors
 
