@@ -123,7 +123,10 @@ section {
 .devFeatures {
   /*display: none;*/
 }
-
+.AboutL{
+  position: relative;
+  bottom: 50px;
+}
 .dropDownContainer {
   position: relative;
   max-width:282px;
@@ -132,6 +135,9 @@ section {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   z-index: 1;
+}
+.artworkTabL{
+  display: none;
 }
 
 /*Artwork*/
@@ -417,6 +423,12 @@ list-style-type: none;
     width: 850px;
     height: 200px;
     margin-bottom: 10px;
+ }
+ .artworkTabL{
+   display: block;
+ }
+ .AboutL{
+   bottom: 0;
  }
  .dropDownContainer:hover .dropDownContent{
    display: block;
