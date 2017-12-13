@@ -115,6 +115,7 @@ section {
 /*Dropdown*/
 .dropDownContent {
   display: block;
+
 }
 .dropDownItem:last-child{
   float:left;
@@ -134,7 +135,8 @@ section {
   display: inline-block;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  z-index: 1;
+  /*height:200px;*/
+
 }
 .artworkTabL{
   display: none;
@@ -236,12 +238,15 @@ bottom: 45px;
 /*Slideshow fade*/
 .fade {
   animation-name: fade-in-out;
-  animation-duration: 1s;
+  animation-duration: 3s;
+  animation-play-state: running;
 }
 
 @keyframes fade-in-out {
-  from {opacity: 0.1}
-  to {opacity: 1}
+  0% {opacity: 0.1}
+  15% {opacity: 1}
+  85%{opacity: 1}
+  100%{opacity:0.1}
 
 }
 .material-icons{
@@ -436,7 +441,9 @@ list-style-type: none;
  .dropDownContainer:hover .dropDownContent{
    display: block;
  }
-
+.dropDownContainer {
+  z-index: 5;
+}
  .dropDownContainer:hover{
    background-color: #fffaf0;
    border: 1px solid #000000;

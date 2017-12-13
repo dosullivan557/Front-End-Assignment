@@ -59,11 +59,24 @@ function pause() {
 		googleSymbols[0].style.display="none";
 		googleSymbols[1].style.display="block";
 		paused = true;
+		pauseAnim();
 	} else {
 		googleSymbols[0].style.display="block";
 		googleSymbols[1].style.display="none";
 		paused = false;
 		timeout = setTimeout(showSlides, 3000);
+		pauseAnim();
+	}
+}
+
+function pauseAnim(){
+	console.log(slides[index].style.webkitAnimationPlayState)
+	if(paused){
+		slides[index].style.webkitAnimationPlayState = "paused";
+	}
+	else {
+		slides[index].style.webkitAnimationPlayState = "running";
+
 	}
 }
 //previous photo button handler
