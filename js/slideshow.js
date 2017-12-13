@@ -11,11 +11,9 @@ let paused = false;
 
 //add animation to each slide
 let animationSlide = "fade-in-out 3s";
-for (var counter = 0; counter < slides.length; counter++) {
+for (var counter = 0; counter < slides.length; counter++)
 	slides[counter].style.animation = animationSlide;
-	console.log(counter);
-	// slides[i].style.display="none";
-}
+
 //Button elements for slideshow
 let pauseButton = document.getElementById("pauseButton");
 let nextButton = document.getElementById("nextButton");
@@ -34,9 +32,8 @@ window.onload = showSlides();
 //shows the correct slides
 function showSlides() {
 	//Makes all the images invisible
-	for ( i = 0; i < slides.length; i++) {
+	for ( i = 0; i < slides.length; i++)
 		slides[i].style.display = "none";
-	}
 	//selects the next image
 	index++;
 	//returns the index of the slides back to 0
@@ -77,17 +74,12 @@ function pause() {
 }
 
 function pauseAnim(){
-	if(paused){
-		for (var Var = 0; Var < slides.length; Var++) {
+	if(paused)
+		for (var Var = 0; Var < slides.length; Var++)
 		slides[Var].style.animation = "";
-	}
-
-	}
-	else {
-		for (var Var2 = 0; Var2 < slides.length; Var2++) {
+	else
+		for (var Var2 = 0; Var2 < slides.length; Var2++)
 			slides[Var2].style.animation = animationSlide;
-	}
-}
 }
 //previous photo button handler
 function previous() {
