@@ -196,7 +196,6 @@ figure {
   width: 600px;
   display: block;
   margin: 0 auto;
-
   border-radius: 5px;
 }
 .prevButton {
@@ -232,15 +231,15 @@ bottom: 45px;
   width: 100px;
   height: 100px;
   border: none;
-
 }
 
 /*Slideshow fade*/
-.fade {
+/*.fade {
   animation-name: fade-in-out;
   animation-duration: 3s;
-  animation-play-state: running;
-}
+}*/
+
+
 
 @keyframes fade-in-out {
   0% {opacity: 0.1}
@@ -305,8 +304,6 @@ figure:hover figcaption {
 
 
 /*Footer styles*/
-
-
 .socialSection{
   position: relative;
   margin: 0 auto;
@@ -413,18 +410,10 @@ list-style-type: none;
     float: right;
     bottom:0;
   }
-
-
-
-
-}
-@media screen and (min-width:1400px){
   .socialSection{
     margin: 0 auto;
     top: 100px;
-
-}
-
+  }
   .navbar{
     margin: 0 auto;
 

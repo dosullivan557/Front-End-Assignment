@@ -9,6 +9,13 @@ let slides = document.getElementsByClassName("slides");
 let timeout;
 let paused = false;
 
+//add animation to each slide
+let animationSlide = "fade-in-out 3s";
+for (var counter = 0; counter < slides.length; counter++) {
+	slides[counter].style.animation = animationSlide;
+	console.log(counter);
+	// slides[i].style.display="none";
+}
 //Button elements for slideshow
 let pauseButton = document.getElementById("pauseButton");
 let nextButton = document.getElementById("nextButton");
@@ -70,14 +77,17 @@ function pause() {
 }
 
 function pauseAnim(){
-	console.log(slides[index].style.webkitAnimationPlayState)
 	if(paused){
-		slides[index].style.webkitAnimationPlayState = "paused";
+		for (var Var = 0; Var < slides.length; Var++) {
+		slides[Var].style.animation = "";
 	}
-	else {
-		slides[index].style.webkitAnimationPlayState = "running";
 
 	}
+	else {
+		for (var Var2 = 0; Var2 < slides.length; Var2++) {
+			slides[Var2].style.animation = animationSlide;
+	}
+}
 }
 //previous photo button handler
 function previous() {

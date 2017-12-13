@@ -75,7 +75,8 @@ I used Git for version control. This is the world's leader in version control.
 ## Javascript Validator
 There are no issues within the Javascript. This is shown because the console shows no errors.
 ## Conclusion
-
+***
+***
 
 ## Authors
 
