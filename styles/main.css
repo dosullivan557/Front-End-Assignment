@@ -298,24 +298,28 @@ figure:hover figcaption {
 
 .socialSection{
   margin: 0 auto;
-
 }
 .fb-like{
   position:relative;
   /*float: left;*/
-  margin: 0 auto;
+  margin-left: 250px;
   right:0;
   padding: 0;
   border:none;
   height: 110px;
   width: auto;
+
 }
 
 .socialImg {
   height: 50px;
   width: 50px;
   position: relative;
-  float: right;
+  /*float: right;*/
+  bottom: 50px;
+}
+.footerName{
+  margin-left: 250px;
 }
 
 /*About section*/
@@ -380,6 +384,24 @@ list-style-type: none;
   .socialImg:hover {
     filter: invert(15%);
   }
+  .footerName{
+    position: relative;
+    margin-left: 0;
+    bottom: 50px;
+    float:left;
+  }
+
+  .fb-like{
+    margin-left: -150px;
+    float: left;
+}
+
+  .socialImg {
+    float: right;
+    bottom:0;
+  }
+
+
 
 
 }
