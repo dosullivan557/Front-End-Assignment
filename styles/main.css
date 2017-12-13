@@ -121,7 +121,7 @@ section {
 }
 
 .devFeatures {
-  /*display: none;*/
+  display: none;
 }
 .AboutL{
   position: relative;
@@ -181,7 +181,7 @@ figure {
   box-shadow: 10px 10px 5px #888888;
   width:800px;
   margin: 0 auto;
-
+  bottom: 170px;
   margin-top: 10px;
 }
 
@@ -303,7 +303,9 @@ figure:hover figcaption {
 
 
 .socialSection{
+  position: relative;
   margin: 0 auto;
+  bottom: 100px;
 }
 .fb-like{
   position:relative;
@@ -414,6 +416,7 @@ list-style-type: none;
 @media screen and (min-width:1400px){
   .socialSection{
     margin: 0 auto;
+    top: 100px;
 
 }
 
@@ -432,8 +435,8 @@ list-style-type: none;
  }
  .dropDownContainer:hover .dropDownContent{
    display: block;
-
  }
+
  .dropDownContainer:hover{
    background-color: #fffaf0;
    border: 1px solid #000000;
@@ -450,7 +453,9 @@ list-style-type: none;
     display: none;
   }
 
-
+  .Sections{
+    bottom:130px;
+  }
   header{
     margin: 0 auto;
 
