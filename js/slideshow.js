@@ -76,7 +76,7 @@ function pause() {
 function pauseAnim(){
 	if(paused)
 		for (var Var = 0; Var < slides.length; Var++)
-		slides[Var].style.animation = "";
+		  slides[Var].style.animation = "";
 	else
 		for (var Var2 = 0; Var2 < slides.length; Var2++)
 			slides[Var2].style.animation = animationSlide;

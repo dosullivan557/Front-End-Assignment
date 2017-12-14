@@ -76,8 +76,8 @@ I used Git for version control. This is the world's leader in version control.
 ## HTML Validator
 [HTML5 Validator](https://validator.w3.org/)
 ## CSS Validator
-![Valid CSS!](http://jigsaw.w3.org/css-validator/images/vcss)
-[CSS3 Validator](https://jigsaw.w3.org/css-validator/)
+
+[![Valid CSS!](http://jigsaw.w3.org/css-validator/images/vcss)](https://jigsaw.w3.org/css-validator/) 
 ## Javascript Validator
 There are no issues within the Javascript. This is shown because the console shows no errors.
 ***
