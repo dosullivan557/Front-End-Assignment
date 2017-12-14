@@ -40,6 +40,10 @@ The text on the about page is added to the page dynamically from a JSON file. It
 
 ## API
 I am using 2 api's on my website; Flickr and Wikipedia. In the about tab, there is a section which is dedicated to inspirations. Using this information, I pull in images by this artist (Vincent Van Gogh), and it displays these images on the page. I then pull in a Wikipedia link to a page about him, and then displays it as an anchor tag on the website.
+
+## JSON
+JSON is a Javascript object notation for storing data. I used this to add the text to the about page of my website.
+
 ***
 
 ## Image compression
@@ -69,6 +73,7 @@ These are what I used to develop this website.
 ## Versioning
 
 I used Git for version control. This is the world's leader in version control.
+
 ***
 
 
@@ -77,7 +82,7 @@ I used Git for version control. This is the world's leader in version control.
 [HTML5 Validator](https://validator.w3.org/)
 ## CSS Validator
 
-[![Valid CSS!](http://jigsaw.w3.org/css-validator/images/vcss)](https://jigsaw.w3.org/css-validator/) 
+[![Valid CSS!](http://jigsaw.w3.org/css-validator/images/vcss)](https://jigsaw.w3.org/css-validator/)
 ## Javascript Validator
 There are no issues within the Javascript. This is shown because the console shows no errors.
 ***
