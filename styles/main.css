@@ -198,26 +198,20 @@ figure {
   margin: 0 auto;
   border-radius: 5px;
 }
-.prevButton {
-height: 30px;
-position: relative;
-bottom: 45px;
-/*margin-bottom: -100px;*/
+
+.slideshowButton {
+  height: 30px;
+  width: 100px;
+  background-color: #544c6a;
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin: 1vh 5vw;
 }
+
 .btnContainer {
-  width: 600px;
-  margin: 0 auto;
-  height: 65px;
-
-  border-radius: 10px;
-  position: relative;
-}
-.nextButton {
-  float: right;
-
-}
-.pauseButton {
-  margin-left: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .googleSymbols {
@@ -225,13 +219,7 @@ bottom: 45px;
   margin: 0 auto;
 }
 
-.slideshowButton{
-  background-color: #544c6a;
-  color: white;
-  width: 100px;
-  height: 100px;
-  border: none;
-}
+
 
 /*Slideshow fade*/
 /*.fade {
@@ -362,36 +350,8 @@ list-style-type: none;
     height: 600px;
     width: 800px;
   }
-  .prevButton {
-  height: 30px;
-  position: relative;
-  bottom: 6px;
 
-}
-  .nextButton{
-    height: 30px;
-    float: right;
-  }
 
-  .pauseButton {
-    height: 30px;
-    width: 180px;
-    margin-left: 200px;
-  }
-  .slideshowButton {
-    position: relative;
-    border: 1px solid black;
-    height: 30px;
-    background-color: #544c6a;
-    cursor: pointer;
-    color: white;
-  }
-
-.btnContainer {
-    width: 800px;
-    top: 10px;
-    bottom: 600px;
-  }
   .socialImg:hover {
     filter: invert(15%);
   }
