@@ -10,13 +10,12 @@ This project is a website dedicated to artwork by cloudyy.gif, and is used to sh
 - [x] SVG
 - [x] API
 - [x] Accessibility
-- [ ] Issues
+- [x] Issues
 - [x] Built With
 - [x] Versioning
-- [ ] HTML Validator
+- [x] HTML Validator
 - [x] CSS Validator
 - [x] Javascript Validator
-- [ ] Conclusion
 ## Design work
 ![general design](images/designs/general.jpg)
 ![homepage section design](images/designs/home.jpg)
@@ -53,6 +52,9 @@ I used a website that applies compression algorithms to different image files an
 ## Accessibility
 [Accessibility - W3C - World Wide Web Consortium](https://www.w3.org/standards/webdesign/accessibility). I used this site to help me understand and implement more accessibility into my website.
 My site has implemented it by having Alternative text for images. This is for screen readers, so it can easily tell the user what is being displayed.
+## Testing
+I sent my webpage around to a total of 20 people; 10 of which are knowledgable of the internet and understood how to use it, and 10 who weren't. From those who weren't, found my website very easy to navigate due the navigation bar at the top. One of my original ideas for this website was to make a single page website because it would allow much easier navigation as well as no load time between pages to allow people to quickly find what they are looking for.
+
 ***
 
 
@@ -86,8 +88,6 @@ I used Git for version control. This is the world's leader in version control.
 ## Javascript Validator
 There are no issues within the Javascript. This is shown because the console shows no errors.
 ***
-# Conclusion
-
 
 ## Authors
 
