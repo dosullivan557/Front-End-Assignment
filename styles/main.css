@@ -9,8 +9,8 @@ input{
 }
 
 h1 {
-  width: 330px;
-  margin-left: 38%;
+  width: 500px;
+  margin-left: 35%;
   font-family: 'Great Vibes', cursive;
   color: #544c6a;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
@@ -21,10 +21,11 @@ h1 {
   animation:
   typing 2s steps(40, end),
   blink 1s infinite;
+  font-size: 3em;
 }
 @keyframes typing {
   from { width: 0% }
-  to { width: 23%}
+  to { width: 400px}
 }
 @keyframes blink {
   0% { border-color: orange }
