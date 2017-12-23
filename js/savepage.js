@@ -32,7 +32,7 @@ function changePage(){
     if(navElems[i].checked){
       localStorage.page = navElems[i].value;
       sections[i].style.display="block";
-      document.title="Cloudyy.gif: "+ navElems[i].value;
+      document.title="Cloudyy.gif - "+ navElems[i].value;
     }
     else {
       sections[i].style.display="none";
@@ -68,7 +68,7 @@ function setLoadPage(){
     if(navElems[i].value===pageStored){
       navElems[i].checked=true;
       sections[i].style.display = "block";
-      document.title="Cloudyy.gif: "+ navElems[i].value;
+      document.title="Cloudyy.gif - "+ navElems[i].value;
       break;
     }
 
