@@ -396,6 +396,9 @@ list-style-type: none;
  }
  figure figcaption {
    opacity: 0;
+   margin-bottom: 0;
+   height:4em;
+
  }
  figure:hover figcaption {
    transform: translateY(0em);
