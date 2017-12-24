@@ -285,7 +285,7 @@ figcaption {
   display: inline;
 }
 a {
-  color: #efefef;
+  /* color: #efefef; */
 }
 
 .footerName{
@@ -295,8 +295,10 @@ a {
   height: 100px;
   width: 100px;
   position: relative;
-  color: none;
   bottom: 50px;
+}
+.socialLink {
+  color: #efefef;
 }
 /*About section*/
 .portrait {
@@ -315,11 +317,21 @@ list-style-type: none;
 .wiki li {
   padding: 25px;
 }
+select {
+  background-color: #544c6a;
+  height:100px;
+  color: #efefef;
+  margin-bottom: 20px;
+}
 
 
 /*Media Statements*/
 
 @media screen and (min-width: 1000px) {
+  select{
+    height: auto;
+
+  }
   .fbD{
     display: inline;
   }
