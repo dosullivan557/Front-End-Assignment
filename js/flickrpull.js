@@ -20,7 +20,7 @@ function flickr(search){
         let tmp = data.photos.photo;
         for(let key in tmp) {
           let url = `https://farm${tmp[key].farm}.staticflickr.com/${tmp[key].server}/${tmp[key].id}_${tmp[key].secret}_q.jpg`;
-          theData += `<img src="${url}" alt="${tmp[key].title}">`;
+          theData += `<img src="${url}" alt="${tmp[key].title}" class="flickrPics">`;
         }
         flickrStuff.innerHTML = theData;
       });

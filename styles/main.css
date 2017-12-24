@@ -310,12 +310,16 @@ a {
   filter: grayscale(100%);
   border-radius: 10px;
 }
-
-.wiki{
-list-style-type: none;
+/**/
+.flickr{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.wiki li {
-  padding: 25px;
+.flickrPics {
+  border: 1px solid #efefef;
+  padding: 5px;
+  margin:5px;
 }
 select {
   background-color: #544c6a;
@@ -323,6 +327,14 @@ select {
   color: #efefef;
   margin-bottom: 20px;
 }
+/*Wikipedia links*/
+.wiki{
+list-style-type: none;
+}
+.wiki li {
+  padding: 25px;
+}
+
 
 
 /*Media Statements*/
