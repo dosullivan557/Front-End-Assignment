@@ -10,7 +10,7 @@ input{
 
 h1 {
   width: 500px;
-  margin-left: 35%;
+  margin-left: 30%;
   font-family: 'Great Vibes', cursive;
   color: #544c6a;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
@@ -134,8 +134,6 @@ section {
   display: inline-block;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  /*height:200px;*/
-
 }
 .artworkTabL{
   display: none;
@@ -180,7 +178,6 @@ figure {
   padding-bottom: 50px;
   bottom: 100px;
   box-shadow: 10px 10px 5px #888888;
-  /* width:800px; */
   width: 90%;
   margin: 0 auto;
   bottom: 170px;
@@ -215,17 +212,10 @@ figure {
 }
 
 .googleSymbols {
-  /*display:none;*/
   margin: 0 auto;
 }
 
 
-
-/*Slideshow fade*/
-/*.fade {
-  animation-name: fade-in-out;
-  animation-duration: 3s;
-}*/
 
 
 
@@ -246,21 +236,16 @@ figure {
   width: 200px;
   border: 2px solid #efefef;
   overflow: hidden;
-  /* margin: 20px; */
   padding: 5px;
-  /* margin: 10px auto; */
-
 }
 
 
 .container{
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-
   width: 100%;
 
 }
@@ -268,17 +253,12 @@ figure {
 figure img {
   width: 100%;
   height: 300px;
-  /* background: #eee; */
-
-  /* margin-top: 100px; */
-  /* background-color: transparent; */
 }
 
 
 figcaption {
   height: 250px;
   opacity: 1;
-  /* margin-top: 100px; */
   margin-bottom: -130px;
 }
 
@@ -291,27 +271,33 @@ figcaption {
 }
 .fb-like{
   position:relative;
-  /*float: left;*/
   margin-left: 250px;
   right:0;
   padding: 0;
   border:none;
   height: 110px;
   width: auto;
-
+}
+.fbD{
+  display: none;
+}
+.fbM {
+  display: inline;
+}
+a {
+  color: #efefef;
 }
 
-.socialImg {
-  height: 50px;
-  width: 50px;
-  position: relative;
-  /*float: right;*/
-  bottom: 50px;
-}
 .footerName{
   margin-left: 250px;
 }
-
+.socialImg {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  color: none;
+  bottom: 50px;
+}
 /*About section*/
 .portrait {
   float: right;
@@ -330,10 +316,23 @@ list-style-type: none;
   padding: 25px;
 }
 
+
 /*Media Statements*/
 
 @media screen and (min-width: 1000px) {
-
+  .fbD{
+    display: inline;
+  }
+  .fbM {
+    display: none;
+  }
+  .socialImg {
+    height: 50px;
+    width: 50px;
+  }
+  h1 {
+    margin-left: 35%;
+  }
   label{
     width: 120px;
   }
