@@ -5,7 +5,7 @@ function flickr(search){
                 method=flickr.photos.search& \
                 api_key=977f37251b9341ce9efd2c4457eacc6d& \
                 format=json& \
-                per_page=8& \
+                per_page=10& \
                 nojsoncallback=1& \
                 tags=";
 
