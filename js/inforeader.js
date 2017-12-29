@@ -23,6 +23,7 @@
   for(i = 0; i < titleArray.length; i++){
     let tt = document.createElement("P");
     tt.setAttribute("class", "slidetext");
+    tt.classList.add("aboutPara");
     let h4x = document.createTextNode(titleArray[i]);
     //if the title in the array at that position is equal to none, no
     //header elementwill be created.

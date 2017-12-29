@@ -34,9 +34,12 @@ h1 {
 .pageHeader {
   text-align: center;
   font-family: 'Great Vibes', cursive;
-  font-size: 50px;
+  font-size:5rem;
   color: #404040;
   margin:15px;
+}
+.printsHeader {
+  font-size: 3rem;
 }
 
 header{
@@ -77,6 +80,7 @@ label{
   text-align: center;
   color: white;
   display: block;
+  font-size: 1.2rem;
 }
 
 
@@ -215,10 +219,6 @@ figure {
   margin: 0 auto;
 }
 
-
-
-
-
 @keyframes fade-in-out {
   0% {opacity: 0.1}
   15% {opacity: 1}
@@ -257,9 +257,10 @@ figure img {
 
 
 figcaption {
-  height: 250px;
+  height: 300px;
   opacity: 1;
   margin-bottom: -130px;
+  font-size: 1.8rem;
 }
 
 
@@ -284,9 +285,7 @@ figcaption {
 .fbM {
   display: inline;
 }
-a {
-  /* color: #efefef; */
-}
+
 
 .footerName{
   margin-left: 250px;
@@ -304,7 +303,7 @@ a {
 .portrait {
   float: right;
   margin: 10px;
-  height: 350px;
+  height: 700px;
   width:auto;
   border: 1px solid #000000;
   filter: grayscale(100%);
@@ -322,9 +321,18 @@ a {
 }
 select {
   background-color: #544c6a;
-  height:100px;
+  height:65px;
   color: #efefef;
   margin-bottom: 20px;
+  font-size: 3rem;
+}
+.aboutPara {
+  font-size: 2.5rem;
+}
+
+.inspir {
+  margin-left: auto;
+  margin-right: auto;
 }
 /*Wikipedia links*/
 .wiki{
@@ -341,7 +349,16 @@ list-style-type: none;
 @media screen and (min-width: 1000px) {
   select{
     height: auto;
-
+    font-size: 1rem;
+  }
+  figcaption {
+    font-size: 1rem;
+  }
+  .pageHeader{
+    font-size: 2rem;
+  }
+  .aboutPara{
+    font-size: 1rem;
   }
   .fbD{
     display: inline;
@@ -358,8 +375,15 @@ list-style-type: none;
   }
   label{
     width: 120px;
+    font-size: 1rem;
   }
-
+  .printsHeader {
+    font-size: 1rem;
+  }
+  .portrait {
+    height: 500px;
+    width: auto;
+  }
   label:hover{
     cursor:pointer;
   }
