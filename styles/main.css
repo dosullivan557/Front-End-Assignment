@@ -285,9 +285,10 @@ figcaption {
 }
 .fbM {
   display: inline;
-  left: 20px;
 }
-
+footer {
+  margin-left: 180px;
+}
 
 .footerName{
   margin-left: 250px;
@@ -297,7 +298,6 @@ figcaption {
   width: 100px;
   position: relative;
   bottom: 50px;
-  left: 220px;
 }
 .socialLink {
   color: #efefef;
@@ -351,15 +351,20 @@ list-style-type: none;
   font-size: 3rem;
 }
 
-h5,h4 {
-  font-size: 2rem;
+h4, h5 {
+  font-size: 1.4;
+}
+.socialLinks {
+  margin-left: 200px;
 }
 /*Media Statements*/
 
 @media screen and (min-width: 1000px) {
-  h5,h4 {
-    font-size: 1rem;
+  h4, h5 {
+    font-size: 1;
   }
+
+
   select{
     height: auto;
     font-size: 1rem;
@@ -381,6 +386,7 @@ h5,h4 {
   }
   .fbD{
     display: inline;
+    left: 80px;
   }
   .fbM {
     display: none;
@@ -388,8 +394,7 @@ h5,h4 {
   .socialImg {
     height: 50px;
     width: 50px;
-    left: -220px;
-
+    float:right;
   }
   h1 {
     margin-left: 35%;
@@ -417,29 +422,28 @@ h5,h4 {
   .socialImg:hover {
     filter: invert(15%);
   }
-  .footerName{
-    position: relative;
-    margin-left: 0;
-    bottom: 50px;
-    float:left;
-  }
+
 
   .fb-like{
     float: left;
-    margin-left: -70px;
+    margin-left: -230px;
 }
-
-  .socialImg {
+  .socialLinks {
+    width: 200px;
     float: right;
+  }
+.footerContainer {
+  margin-left: 200px;
+}
+  .socialImg {
     bottom:0;
   }
   .socialSection{
-    margin: 0 auto;
+    left:100px;
     top: 100px;
   }
   .navbar{
     margin: 0 auto;
-
     width: 850px;
     height: 200px;
     margin-bottom: 10px;
