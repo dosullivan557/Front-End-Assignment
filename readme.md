@@ -38,8 +38,9 @@ The text on the about page is added to the page dynamically from a JSON file. It
 * I used and adapted the animate from [here](http://www.tutorialized.com/tutorial/Create-a-Gently-Swaying-Image-With-CSS3-Animation/85877).
 
 ## API
-I am using 2 api's on my website; Flickr and Wikipedia. In the about tab, there is a section which is dedicated to inspirations. Using this information, I pull in images by this artist (Vincent Van Gogh), and it displays these images on the page. I then pull in a Wikipedia link to a page about him, and then displays it as an anchor tag on the website.
+I am using 2 api's on my website; Flickr and Wikipedia. In the about tab, there is a section which is dedicated to inspirations. Using the information from the dropdown menu, I pull in the relevant images by this artist, and it displays these images on the page. I then pull in a Wikipedia link to a page about the artist, and then displays it as an anchor tag on the website, as well as a brief description about the artist.
 
+As well as these, I have added a google maps API to highlight where the artist is based.
 ## JSON
 JSON is a Javascript object notation for storing data. I used this to add the text to the about page of my website.
 
