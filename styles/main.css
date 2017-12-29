@@ -80,7 +80,6 @@ label{
   text-align: center;
   color: white;
   display: block;
-  font-size: 1.2rem;
 }
 
 
@@ -414,7 +413,6 @@ h4, h5 {
   }
   label{
     width: 120px;
-    /* font-size: 1rem; */
   }
   .printsHeader {
     font-size: 1rem;
