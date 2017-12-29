@@ -360,11 +360,11 @@ h4, h5 {
 
 .map {
   height: 500px;
-  width: 500px;
+  width: 80%;
 }
 .maps {
   position: relative;
-  left: 30%;
+  left: 100px;
 }
 /*Media Statements*/
 
@@ -373,6 +373,10 @@ h4, h5 {
     font-size: 1rem;
   }
 
+  .maps {
+    position: relative;
+    left: 120px;
+  }
 
   select{
     height: auto;
