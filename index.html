@@ -6,194 +6,188 @@
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <title>Cloudyy.gif Artwork</title>
   </head>
-
-
   <body>
     <button id="clearbutton" class="devFeatures">
-      clear and refresh
+    clear and refresh
     </button>
     <button id="refreshButton" class="devFeatures">
-      refresh
+    refresh
     </button>
     <header>
-            <!-- Header section -->
+      <!-- Header section -->
       <img class="logo" alt="logo" src="images/svg/cloud.svg"/>
-    <h1 class="mainHead" id="header">Cloudyy.gif Artwork</h1>
-    <!-- Navigation bar section -->
-
-  </header>
+      <h1 class="mainHead" id="header">Cloudyy.gif Artwork</h1>
+      <!-- Navigation bar section -->
+    </header>
     <nav id="navbar" class="navbar">
       <input id="tab1" type="radio" class="navItems" name="navBar" value="Home">
       <label class="mainNav" for="tab1">
-        Home
+      Home
       </label>
-        <div class="dropDownContainer">
+      <div class="dropDownContainer">
         <input type="button" class="artworkTab" id="tab2" value="ddButton" name="navBar">
         <label class="mainNav artworkTabL" for="tab2">
-          Artwork
+        Artwork
         </label>
         <div class="dropDownContent">
-         <input type="radio" id="tab4" value="Paintings" class="navItems" name="navBar">
-         <label class="dropDownItem" for="tab4">
-           Paintings
-         </label>
-         <input type="radio" id="tab5" value="Prints" class="navItems" name="navBar">
-         <label class="dropDownItem" for="tab5">
-           Prints
-         </label>
+          <input type="radio" id="tab4" value="Paintings" class="navItems" name="navBar">
+          <label class="dropDownItem" for="tab4">
+          Paintings
+          </label>
+          <input type="radio" id="tab5" value="Prints" class="navItems" name="navBar">
+          <label class="dropDownItem" for="tab5">
+          Prints
+          </label>
         </div>
       </div>
       <input type="radio" value="About" class="navItems" id="tab3" name="navBar">
       <label class="AboutL" for="tab3">
-        About
+      About
       </label>
     </nav>
-
     <!--Home section -->
-        <section id="HomeContent" class="Sections fadePages">
-          <h2 class="pageHeader">
-            Home
-          </h2>
-    				<img src="images/slideshow/slide1.jpg" alt="slide1" class="slides fade">
-    				<img src="images/slideshow/slide2.png" alt="slide2" class="slides fade">
-            <img src="images/slideshow/slide3.png" alt="slide3" class="slides fade">
-            <img src="images/slideshow/slide4.jpeg" alt="slide3" class="slides fade">
-            <div class="btnContainer">
-              <button id="prevButton" class="slideshowButton prevButton">
-                <img alt="Back button" src="images/svg/back.svg" class="material-icons"/>
-    				  </button>
-    				  <button id="pauseButton" class="slideshowButton pauseButton">
-                <img alt="Pause button" src="images/svg/pause.svg" class="material-icons googleSymbols"/>
-                <img alt="Play button" src="images/svg/play.svg" class="material-icons googleSymbols"/>
-    			  	</button>
-    				  <button id="nextButton" class="slideshowButton nextButton">
-                <img alt="Next button"  src="images/svg/next.svg" class="material-icons"/>
-              </button>
-            </div>
-        </section>
-        <!-- Paintings Section -->
-        <section id="PaintingContent" class="Sections fadePages">
-          <h2 class="pageHeader">Painting</h2>
-          <div class="container">
-            <figure>
-              <img class="paintings" src="images/paintings/face.jpeg" alt="placeholder"/>
-              <figcaption>
-                Face 1
-              </figcaption>
-            </figure>
-            <figure>
-              <img class="paintings" src="images/paintings/face2.jpeg" alt="placeholder"/>
-              <figcaption>
-                Face 2
-              </figcaption>
-            </figure>
-            <figure>
-              <img class="paintings" src="images/paintings/face3.jpeg" alt="placeholder"/>
-              <figcaption>
-                Face 3
-              </figcaption>
-            </figure>
-            <figure>
-              <img class="paintings" src="images/paintings/face4.jpeg" alt="placeholder"/>
-              <figcaption>
-                Face 4
-              </figcaption>
-            </figure>
-            <figure>
-              <img class="paintings" src="images/paintings/mouth.jpeg" alt="placeholder"/>
-              <figcaption>
-                Face 5
-              </figcaption>
-            </figure>
-            <figure>
-              <img class="paintings" src="images/paintings/pier.jpeg" alt="placeholder"/>
-              <figcaption>
-                Pier
-              </figcaption>
-            </figure>
-        </div>
-        </section>
-        <!-- Prints Section -->
-        <section id="PrintsContent" class="Sections fadePages">
-          <h2 class="pageHeader">
-            Prints
-          </h2>
-          <div class="container">
-            <figure>
-              <img class="paintings" src="images/prints/face.jpeg" alt="placeholder"/>
-              <figcaption>
-                Face 1
-              </figcaption>
-            </figure>
-            <figure>
-              <img class="paintings" src="images/prints/face3.jpeg" alt="placeholder"/>
-              <figcaption>
-                Face 2
-              </figcaption>
-            </figure>
-          <figure>
-            <img class="paintings" src="images/prints/face4.jpeg" alt="placeholder"/>
-            <figcaption>
-              Face 3
-            </figcaption>
-          </figure>
-          <figure>
-            <img class="paintings" src="images/prints/pier.jpeg" alt="placeholder"/>
-            <figcaption>
-              Pier
-            </figcaption>
-          </figure>
-        </div>
-        </section>
-        <!--
-        About section
-        All information is read in via JSON
+    <section id="HomeContent" class="Sections fadePages">
+      <h2 class="pageHeader">
+        Home
+      </h2>
+      <img src="images/slideshow/slide1.jpg" alt="slide1" class="slides fade">
+      <img src="images/slideshow/slide2.png" alt="slide2" class="slides fade">
+      <img src="images/slideshow/slide3.png" alt="slide3" class="slides fade">
+      <img src="images/slideshow/slide4.jpeg" alt="slide3" class="slides fade">
+      <div class="btnContainer">
+        <button id="prevButton" class="slideshowButton prevButton">
+        <img alt="Back button" src="images/svg/back.svg" class="material-icons"/>
+        </button>
+        <button id="pauseButton" class="slideshowButton pauseButton">
+        <img alt="Pause button" src="images/svg/pause.svg" class="material-icons googleSymbols"/>
+        <img alt="Play button" src="images/svg/play.svg" class="material-icons googleSymbols"/>
+        </button>
+        <button id="nextButton" class="slideshowButton nextButton">
+        <img alt="Next button"  src="images/svg/next.svg" class="material-icons"/>
+        </button>
+      </div>
+    </section>
+    <!-- Paintings Section -->
+    <section id="PaintingContent" class="Sections fadePages">
+      <h2 class="pageHeader">Painting</h2>
+      <div class="container">
+        <figure>
+          <img class="paintings" src="images/paintings/face.jpeg" alt="placeholder"/>
+          <figcaption>
+            Face 1
+          </figcaption>
+        </figure>
+        <figure>
+          <img class="paintings" src="images/paintings/face2.jpeg" alt="placeholder"/>
+          <figcaption>
+            Face 2
+          </figcaption>
+        </figure>
+        <figure>
+          <img class="paintings" src="images/paintings/face3.jpeg" alt="placeholder"/>
+          <figcaption>
+            Face 3
+          </figcaption>
+        </figure>
+        <figure>
+          <img class="paintings" src="images/paintings/face4.jpeg" alt="placeholder"/>
+          <figcaption>
+            Face 4
+          </figcaption>
+        </figure>
+        <figure>
+          <img class="paintings" src="images/paintings/mouth.jpeg" alt="placeholder"/>
+          <figcaption>
+            Face 5
+          </figcaption>
+        </figure>
+        <figure>
+          <img class="paintings" src="images/paintings/pier.jpeg" alt="placeholder"/>
+          <figcaption>
+            Pier
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <!-- Prints Section -->
+    <section id="PrintsContent" class="Sections fadePages">
+      <h2 class="pageHeader">
+        Prints
+      </h2>
+      <div class="container">
+        <figure>
+          <img class="paintings" src="images/prints/face.jpeg" alt="placeholder"/>
+          <figcaption>
+            Face 1
+          </figcaption>
+        </figure>
+        <figure>
+          <img class="paintings" src="images/prints/face3.jpeg" alt="placeholder"/>
+          <figcaption>
+            Face 2
+          </figcaption>
+        </figure>
+        <figure>
+          <img class="paintings" src="images/prints/face4.jpeg" alt="placeholder"/>
+          <figcaption>
+            Face 3
+          </figcaption>
+        </figure>
+        <figure>
+          <img class="paintings" src="images/prints/pier.jpeg" alt="placeholder"/>
+          <figcaption>
+            Pier
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <!--
+      About section
+      All information is read in via JSON
       -->
-        <section id="AboutContent" class="Sections fadePages">
-          <h2 class="pageHeader">About</h2>
-          <div id="aboutSection">
-            <img src="images/aboutpagepic.png" class="portrait" alt="portrait"/>
-            <h4 id="printsHeader" class="printsHeader">
-              Header
-            </h4>
-          </div>
-          <h5>Inspiration</h5>
-          <div class="inspir">
-            <form>
-              <select class="ddInsp" name="artists" id="artists">
-                <option value="none">Select Artist</option>
-                <option value="Vincent Van Gogh">Vincent Van Gogh</option>
-                <option value="Leonardo Da Vinci">Leonardo Da Vinci</option>
-                <option value="Banksy">Banksy</option>
-              </select>
-            </form>
-          </div>
-          <div id="flickr" class="flickr"></div>
-          <ul id="Wikipedia" class="wiki"></ul>
-        </section>
-        <!-- Script tags-->
-        <script src="js/savepage.js"></script>
-        <script src="js/slideshow.js"></script>
-        <script src="js/type.js"></script>
-        <script src="js/flickrpull.js"></script>
-        <script src="js/wikipull.js"></script>
-        <script src="js/data.js"></script>
-        <script src="js/inforeader.js"></script>
-        <script src="js/inspiration.js"></script>
-
-<!--Footer -->
-          <article class="socialSection">
-            <h4 class="footerName" >Keerthika Sakthibalan</h4>
-            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fcloudyygif-473873586345665%2F&width=100px&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=310093376172653" class="fb-like fbD"></iframe>
-            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fcloudyygif%2F&width=100px&layout=button&action=like&size=large&show_faces=true&share=true&height=65&appId=310093376172653" class="fb-like fbM"></iframe>
-            <a class="socialLink" href="https://www.instagram.com/cloudyy.gif/">
-              <img class="socialImg" alt="Instagram logo" src="images/instagram.png"/>
-            </a>
-            <a class="socialLink" href="mailto:cloudy.gif@hotmail.com">
-              <img class="socialImg" alt="Email me" src="images/mailme.png"/>
-            </a>
-            <img class="socialImg" alt="YouTube logo" src="images/youtube.png"/>
-          </article>
-
+    <section id="AboutContent" class="Sections fadePages">
+      <h2 class="pageHeader">About</h2>
+      <div id="aboutSection">
+        <img src="images/aboutpagepic.png" class="portrait" alt="portrait"/>
+        <h4 id="printsHeader" class="printsHeader">
+          Header
+        </h4>
+      </div>
+      <h5>Inspiration</h5>
+      <div class="inspir">
+        <form>
+          <select class="ddInsp" name="artists" id="artists">
+            <option value="none">Select Artist</option>
+            <option value="Vincent Van Gogh">Vincent Van Gogh</option>
+            <option value="Leonardo Da Vinci">Leonardo Da Vinci</option>
+            <option value="Banksy">Banksy</option>
+          </select>
+        </form>
+      </div>
+      <div id="flickr" class="flickr"></div>
+      <ul id="Wikipedia" class="wiki"></ul>
+    </section>
+    <!-- Script tags-->
+    <script src="js/savepage.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/type.js"></script>
+    <script src="js/flickrpull.js"></script>
+    <script src="js/wikipull.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/inforeader.js"></script>
+    <script src="js/inspiration.js"></script>
+    <!--Footer -->
+    <article class="socialSection">
+      <h4 class="footerName" >Keerthika Sakthibalan</h4>
+      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fcloudyygif-473873586345665%2F&width=100px&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=310093376172653" class="fb-like fbD"></iframe>
+      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fcloudyygif%2F&width=100px&layout=button&action=like&size=large&show_faces=true&share=true&height=65&appId=310093376172653" class="fb-like fbM"></iframe>
+      <a class="socialLink" href="https://www.instagram.com/cloudyy.gif/">
+      <img class="socialImg" alt="Instagram logo" src="images/instagram.png"/>
+      </a>
+      <a class="socialLink" href="mailto:cloudy.gif@hotmail.com">
+      <img class="socialImg" alt="Email me" src="images/mailme.png"/>
+      </a>
+      <img class="socialImg" alt="YouTube logo" src="images/youtube.png"/>
+    </article>
   </body>
 </html>
