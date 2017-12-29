@@ -356,6 +356,16 @@ h4, h5 {
 .socialLinks {
   margin-left: 200px;
 }
+
+
+.map {
+  height: 500px;
+  width: 500px;
+}
+.maps {
+  position: relative;
+  left: 30%;
+}
 /*Media Statements*/
 
 @media screen and (min-width: 1000px) {
