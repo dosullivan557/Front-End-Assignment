@@ -341,7 +341,12 @@ list-style-type: none;
 .wiki li {
   padding: 25px;
 }
-
+.wikiText {
+  font-size: 2rem;
+}
+.wikiTitle {
+  font-size: 3rem;
+}
 
 
 /*Media Statements*/
@@ -349,6 +354,12 @@ list-style-type: none;
 @media screen and (min-width: 1000px) {
   select{
     height: auto;
+    font-size: 1rem;
+  }
+  .wikiText {
+    font-size: 1rem;
+  }
+  .wikiTitle {
     font-size: 1rem;
   }
   figcaption {
@@ -381,7 +392,7 @@ list-style-type: none;
     font-size: 1rem;
   }
   .portrait {
-    height: 500px;
+    height: 400px;
     width: auto;
   }
   label:hover{

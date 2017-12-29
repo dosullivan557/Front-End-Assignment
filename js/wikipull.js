@@ -38,8 +38,8 @@
     for(key in data.query.pages) {
       let tmp = data.query.pages[key];
 
-      let title = `<strong><a href="${tmp.fullurl}">${tmp.title}</a></strong>`;
-      let extract = `<span class="txt">${tmp.extract}</span>`;
+      let title = `<strong><a class="wikiTitle" href="${tmp.fullurl}">${tmp.title}</a></strong>`;
+      let extract = `<span class="wikiText">${tmp.extract}</span>`;
       let langLinks = "";
       for (k in tmp.langlinks) {
         if (languages.includes(tmp.langlinks[k].lang)) {
